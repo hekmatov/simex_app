@@ -1,0 +1,150 @@
+{
+  "home_status_cards": {
+    "aliases": ["dashboard areas", "overview", "home", "start page", "hoofdpagina", "overzicht"],
+    "keywords": ["biomedical", "socio-economic", "runtime", "static app"]
+  },
+  "home_case_map": {
+    "aliases": ["case map", "geographic spread", "kaart", "verspreiding", "provincies"],
+    "keywords": ["cases", "infected", "province", "map", "infecties"]
+  },
+  "bio_geo_spread": {
+    "aliases": ["case spread map", "geografische verspreiding", "infectiekaart", "provinciekaart"],
+    "keywords": ["cases", "infected", "province", "map", "verspreiding"]
+  },
+  "bio_municipality_choropleth": {
+    "aliases": ["municipality infection rate", "gemeente infecties", "gemeentekaart", "choropleth"],
+    "keywords": ["municipality", "gemeente", "infection rate", "infecties", "population"]
+  },
+  "bio_municipality_choropleth_animation": {
+    "aliases": ["infection timelapse", "municipality animation", "animatie", "tijdlijn", "gemeente verloop"],
+    "keywords": ["timelapse", "animation", "infection rate", "gemeente", "over time"]
+  },
+  "bio_confirmed_cases": {
+    "aliases": ["confirmed cases", "cumulative cases", "bevestigde gevallen", "cumulatieve besmettingen"],
+    "keywords": ["cases", "infection", "infecties", "besmettingen", "surveillance"]
+  },
+  "bio_r_values": {
+    "aliases": ["r value", "reproduction number", "reproductiegetal", "r waarde"],
+    "keywords": ["transmission", "spread", "besmettelijkheid", "R"]
+  },
+  "bio_region_comparison": {
+    "aliases": ["cases per province", "province comparison", "gevallen per provincie", "provincies vergelijken"],
+    "keywords": ["province", "regional", "cases", "provincie", "regionaal"]
+  },
+  "bio_case_deltas": {
+    "aliases": ["daily change", "case deltas", "change since previous day", "dagelijkse verandering"],
+    "keywords": ["delta", "increase", "stijging", "previous day"]
+  },
+  "bio_new_cases_deaths": {
+    "aliases": ["new cases and deaths", "daily cases", "deaths per day", "nieuwe gevallen", "sterfgevallen"],
+    "keywords": ["mortality", "deaths", "cases", "sterfte", "overlijden"]
+  },
+  "bio_mortality_age": {
+    "aliases": ["mortality by age", "age distribution", "sterfte naar leeftijd", "leeftijdsverdeling"],
+    "keywords": ["mortality", "age", "older people", "sterfte", "leeftijd"]
+  },
+  "bio_icu_occupancy_gauge": {
+    "aliases": ["current icu occupancy", "icu pressure", "ic bezetting", "huidige ic druk"],
+    "keywords": ["ICU", "capacity", "beds", "intensive care", "bezetting"]
+  },
+  "bio_hospital_occupancy_gauge": {
+    "aliases": ["current hospital occupancy", "hospital pressure", "ziekenhuisbezetting", "kliniek druk"],
+    "keywords": ["hospital", "capacity", "beds", "ziekenhuis", "bezetting"]
+  },
+  "bio_icu_occupancy": {
+    "aliases": ["icu occupancy over time", "icu capacity", "ic bezetting verloop", "intensive care bezetting"],
+    "keywords": ["ICU", "capacity", "beds", "pressure", "bezetting"]
+  },
+  "bio_hospital_occupancy": {
+    "aliases": ["hospital occupancy over time", "clinic occupancy", "ziekenhuis bezetting verloop"],
+    "keywords": ["hospital", "clinic", "capacity", "beds", "ziekenhuis"]
+  },
+  "bio_admissions": {
+    "aliases": ["icu and hospital admissions", "new admissions", "opnames", "ziekenhuisopnames"],
+    "keywords": ["admissions", "ICU", "hospital", "opnames"]
+  },
+  "bio_delayed_healthcare": {
+    "aliases": ["delayed healthcare", "surgeries performed", "uitgestelde zorg", "operaties"],
+    "keywords": ["surgery", "healthcare", "delayed", "zorg", "operaties"]
+  },
+  "bio_testing_overlay": {
+    "aliases": ["testing and positivity", "test positivity", "tests conducted", "testen en positiviteit", "positiviteitspercentage"],
+    "keywords": ["testing", "positive tests", "RIVM", "testen", "positiviteit"]
+  },
+  "bio_wastewater_map": {
+    "aliases": ["wastewater map", "rioolwater kaart", "wastewater spread", "afvalwater verspreiding"],
+    "keywords": ["wastewater", "virus particles", "province", "rioolwater", "deeltjes"]
+  },
+  "bio_wastewater_province": {
+    "aliases": ["wastewater per province", "rioolwater per provincie", "virus particles per province"],
+    "keywords": ["wastewater", "province", "virus particles", "rioolwater"]
+  },
+  "bio_vaccination_current": {
+    "aliases": ["current vaccination status", "vaccination groups", "huidige vaccinatie", "vaccinatiestatus"],
+    "keywords": ["vaccination", "vaccine", "groups", "vaccinatie"]
+  },
+  "bio_vaccination_rate": {
+    "aliases": ["vaccination rate over time", "vaccinatiegraad", "vaccinatie verloop"],
+    "keywords": ["vaccination", "rate", "vaccine uptake", "vaccinatiegraad"]
+  },
+  "socio_risk_perception": {
+    "aliases": ["risk perception", "public risk perception", "risicoperceptie", "risico inschatting"],
+    "keywords": ["behaviour", "risk", "perception", "gedrag", "risico"]
+  },
+  "socio_risk_deltas": {
+    "aliases": ["risk perception changes", "risk perception deltas", "verandering risicoperceptie"],
+    "keywords": ["delta", "change", "risk", "verandering", "risico"]
+  },
+  "socio_adherence": {
+    "aliases": ["adherence to health measures", "measure compliance", "naleving maatregelen", "gezondheidsmaatregelen"],
+    "keywords": ["adherence", "compliance", "behaviour", "naleving", "maatregelen"]
+  },
+  "socio_values": {
+    "aliases": ["citizen values", "public considerations", "waarden", "overwegingen burgers"],
+    "keywords": ["values", "citizens", "advice", "waarden", "burgers"]
+  },
+  "socio_values_deltas": {
+    "aliases": ["values changes", "values compared to previous phase", "verandering waarden"],
+    "keywords": ["values", "delta", "change", "waarden", "verandering"]
+  },
+  "socio_trust_trend": {
+    "aliases": ["public trust over time", "trust in institutions", "vertrouwen in instituties", "publiek vertrouwen"],
+    "keywords": ["trust", "institutions", "confidence", "vertrouwen"]
+  },
+  "socio_trust_meter": {
+    "aliases": ["current trust", "trust meter", "huidig vertrouwen", "vertrouwensmeter"],
+    "keywords": ["trust", "institution", "vertrouwen", "meter"]
+  },
+  "socio_loneliness": {
+    "aliases": ["loneliness", "severe loneliness", "eenzaamheid", "ernstige eenzaamheid"],
+    "keywords": ["wellbeing", "loneliness", "age group", "welzijn", "eenzaamheid"]
+  },
+  "socio_mental_wellbeing": {
+    "aliases": ["mental wellbeing", "anxiety stress sleep", "mentaal welzijn", "angst stress slaap"],
+    "keywords": ["wellbeing", "mental health", "stress", "sleep", "welzijn"]
+  },
+  "socio_lifestyle": {
+    "aliases": ["lifestyle", "leefstijl", "health behaviour"],
+    "keywords": ["wellbeing", "lifestyle", "behaviour", "leefstijl"]
+  },
+  "socio_resilience": {
+    "aliases": ["resilience", "social resilience", "veerkracht", "sociale veerkracht"],
+    "keywords": ["wellbeing", "resilience", "community", "veerkracht"]
+  },
+  "socio_business_closures": {
+    "aliases": ["business closures", "company closures", "bedrijfssluitingen", "ondernemingen sluiten"],
+    "keywords": ["economy", "closures", "business", "economie"]
+  },
+  "socio_unemployment": {
+    "aliases": ["unemployment", "unemployment rate", "werkloosheid", "werkloosheidspercentage"],
+    "keywords": ["economy", "jobs", "employment", "werkloosheid"]
+  },
+  "socio_healthcare_absenteeism": {
+    "aliases": ["healthcare absenteeism", "care staff absence", "zorgverzuim", "verzuim in de zorg"],
+    "keywords": ["absenteeism", "healthcare", "staff", "verzuim", "zorg"]
+  },
+  "socio_education_absenteeism": {
+    "aliases": ["school absenteeism", "education absenteeism", "schoolverzuim", "onderwijsverzuim"],
+    "keywords": ["absenteeism", "education", "schools", "verzuim", "onderwijs"]
+  }
+}
