@@ -4,7 +4,7 @@
 
 SimEx Dashboard V2 is a static, configurable web dashboard for presenting simulation-exercise data. It combines prepared epidemiological and socio-economic data with configurable charts, maps, tables, indicators, and comparison panels.
 
-This manual describes the published dashboard and its supported configuration and deployment model. It intentionally excludes development history, personal workflows, local-machine details, and experimental features.
+This manual describes the published dashboard and its supported configuration and deployment model.
 
 ## Dashboard at a glance
 
