@@ -1,0 +1,133 @@
+date,date_value,Month Label,Question key,Question,Answer group,Age group,Behaviour type,Percentage,Previous percentage,Percentage delta,Comparison date,Comparison label,Is first snapshot,selected_date
+2027-03-15,2027-03-15,15 Mar 2027,1,Social Distancing,Agreement,All,adherence,86.0,86.0,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-15,2027-03-15,15 Mar 2027,1,Social Distancing,Neutral,All,adherence,6.0,6.0,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-15,2027-03-15,15 Mar 2027,1,Social Distancing,Disagreement,All,adherence,8.0,8.0,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-15,2027-03-15,15 Mar 2027,2,Quarantaine measures,Agreement,All,adherence,86.0,86.0,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-15,2027-03-15,15 Mar 2027,2,Quarantaine measures,Neutral,All,adherence,6.0,6.0,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-15,2027-03-15,15 Mar 2027,2,Quarantaine measures,Disagreement,All,adherence,8.0,8.0,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-15,2027-03-15,15 Mar 2027,3,Ban on public gathering,Agreement,All,adherence,82.0,82.0,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-15,2027-03-15,15 Mar 2027,3,Ban on public gathering,Neutral,All,adherence,7.000000000000001,7.000000000000001,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-15,2027-03-15,15 Mar 2027,3,Ban on public gathering,Disagreement,All,adherence,11.0,11.0,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-15,2027-03-15,15 Mar 2027,4,Non-essential travel,Agreement,All,adherence,81.0,81.0,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-15,2027-03-15,15 Mar 2027,4,Non-essential travel,Neutral,All,adherence,7.000000000000001,7.000000000000001,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-15,2027-03-15,15 Mar 2027,4,Non-essential travel,Disagreement,All,adherence,12.0,12.0,0.0,2027-03-15,15 Mar 2027,True,2027-03-15
+2027-03-29,2027-03-29,29 Mar 2027,1,Social Distancing,Agreement,All,adherence,84.0,86.0,-2.0,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-03-29,2027-03-29,29 Mar 2027,1,Social Distancing,Neutral,All,adherence,7.000000000000001,6.0,1.0000000000000009,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-03-29,2027-03-29,29 Mar 2027,1,Social Distancing,Disagreement,All,adherence,9.0,8.0,1.0,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-03-29,2027-03-29,29 Mar 2027,2,Quarantaine measures,Agreement,All,adherence,84.0,86.0,-2.0,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-03-29,2027-03-29,29 Mar 2027,2,Quarantaine measures,Neutral,All,adherence,7.000000000000001,6.0,1.0000000000000009,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-03-29,2027-03-29,29 Mar 2027,2,Quarantaine measures,Disagreement,All,adherence,9.0,8.0,1.0,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-03-29,2027-03-29,29 Mar 2027,3,Ban on public gathering,Agreement,All,adherence,82.0,82.0,0.0,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-03-29,2027-03-29,29 Mar 2027,3,Ban on public gathering,Neutral,All,adherence,7.000000000000001,7.000000000000001,0.0,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-03-29,2027-03-29,29 Mar 2027,3,Ban on public gathering,Disagreement,All,adherence,11.0,11.0,0.0,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-03-29,2027-03-29,29 Mar 2027,4,Non-essential travel,Agreement,All,adherence,80.0,81.0,-1.0,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-03-29,2027-03-29,29 Mar 2027,4,Non-essential travel,Neutral,All,adherence,8.0,7.000000000000001,0.9999999999999991,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-03-29,2027-03-29,29 Mar 2027,4,Non-essential travel,Disagreement,All,adherence,12.0,12.0,0.0,2027-03-15,15 Mar 2027,False,2027-03-29
+2027-04-12,2027-04-12,12 Apr 2027,1,Social Distancing,Agreement,All,adherence,80.0,84.0,-4.0,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-12,2027-04-12,12 Apr 2027,1,Social Distancing,Neutral,All,adherence,8.0,7.000000000000001,0.9999999999999991,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-12,2027-04-12,12 Apr 2027,1,Social Distancing,Disagreement,All,adherence,12.0,9.0,3.0,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-12,2027-04-12,12 Apr 2027,2,Quarantaine measures,Agreement,All,adherence,80.0,84.0,-4.0,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-12,2027-04-12,12 Apr 2027,2,Quarantaine measures,Neutral,All,adherence,8.0,7.000000000000001,0.9999999999999991,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-12,2027-04-12,12 Apr 2027,2,Quarantaine measures,Disagreement,All,adherence,12.0,9.0,3.0,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-12,2027-04-12,12 Apr 2027,3,Ban on public gathering,Agreement,All,adherence,80.0,82.0,-2.0,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-12,2027-04-12,12 Apr 2027,3,Ban on public gathering,Neutral,All,adherence,8.0,7.000000000000001,0.9999999999999991,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-12,2027-04-12,12 Apr 2027,3,Ban on public gathering,Disagreement,All,adherence,12.0,11.0,1.0,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-12,2027-04-12,12 Apr 2027,4,Non-essential travel,Agreement,All,adherence,79.0,80.0,-1.0,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-12,2027-04-12,12 Apr 2027,4,Non-essential travel,Neutral,All,adherence,8.0,8.0,0.0,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-12,2027-04-12,12 Apr 2027,4,Non-essential travel,Disagreement,All,adherence,13.0,12.0,1.0,2027-03-29,29 Mar 2027,False,2027-04-12
+2027-04-26,2027-04-26,26 Apr 2027,1,Social Distancing,Agreement,All,adherence,75.0,80.0,-5.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-04-26,2027-04-26,26 Apr 2027,1,Social Distancing,Neutral,All,adherence,9.0,8.0,1.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-04-26,2027-04-26,26 Apr 2027,1,Social Distancing,Disagreement,All,adherence,16.0,12.0,4.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-04-26,2027-04-26,26 Apr 2027,2,Quarantaine measures,Agreement,All,adherence,75.0,80.0,-5.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-04-26,2027-04-26,26 Apr 2027,2,Quarantaine measures,Neutral,All,adherence,9.0,8.0,1.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-04-26,2027-04-26,26 Apr 2027,2,Quarantaine measures,Disagreement,All,adherence,16.0,12.0,4.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-04-26,2027-04-26,26 Apr 2027,3,Ban on public gathering,Agreement,All,adherence,79.0,80.0,-1.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-04-26,2027-04-26,26 Apr 2027,3,Ban on public gathering,Neutral,All,adherence,9.0,8.0,1.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-04-26,2027-04-26,26 Apr 2027,3,Ban on public gathering,Disagreement,All,adherence,12.0,12.0,0.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-04-26,2027-04-26,26 Apr 2027,4,Non-essential travel,Agreement,All,adherence,74.0,79.0,-5.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-04-26,2027-04-26,26 Apr 2027,4,Non-essential travel,Neutral,All,adherence,9.0,8.0,1.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-04-26,2027-04-26,26 Apr 2027,4,Non-essential travel,Disagreement,All,adherence,17.0,13.0,4.0,2027-04-12,12 Apr 2027,False,2027-04-26
+2027-05-10,2027-05-10,10 May 2027,1,Social Distancing,Agreement,All,adherence,92.0,75.0,17.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-10,2027-05-10,10 May 2027,1,Social Distancing,Neutral,All,adherence,3.0,9.0,-6.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-10,2027-05-10,10 May 2027,1,Social Distancing,Disagreement,All,adherence,5.0,16.0,-11.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-10,2027-05-10,10 May 2027,2,Quarantaine measures,Agreement,All,adherence,87.0,75.0,12.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-10,2027-05-10,10 May 2027,2,Quarantaine measures,Neutral,All,adherence,5.0,9.0,-4.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-10,2027-05-10,10 May 2027,2,Quarantaine measures,Disagreement,All,adherence,8.0,16.0,-8.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-10,2027-05-10,10 May 2027,3,Ban on public gathering,Agreement,All,adherence,87.0,79.0,8.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-10,2027-05-10,10 May 2027,3,Ban on public gathering,Neutral,All,adherence,5.0,9.0,-4.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-10,2027-05-10,10 May 2027,3,Ban on public gathering,Disagreement,All,adherence,8.0,12.0,-4.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-10,2027-05-10,10 May 2027,4,Non-essential travel,Agreement,All,adherence,88.0,74.0,14.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-10,2027-05-10,10 May 2027,4,Non-essential travel,Neutral,All,adherence,5.0,9.0,-4.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-10,2027-05-10,10 May 2027,4,Non-essential travel,Disagreement,All,adherence,7.0,17.0,-10.0,2027-04-26,26 Apr 2027,False,2027-05-10
+2027-05-24,2027-05-24,24 May 2027,1,Social Distancing,Agreement,All,adherence,92.0,92.0,0.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-05-24,2027-05-24,24 May 2027,1,Social Distancing,Neutral,All,adherence,3.0,3.0,0.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-05-24,2027-05-24,24 May 2027,1,Social Distancing,Disagreement,All,adherence,5.0,5.0,0.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-05-24,2027-05-24,24 May 2027,2,Quarantaine measures,Agreement,All,adherence,85.0,87.0,-2.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-05-24,2027-05-24,24 May 2027,2,Quarantaine measures,Neutral,All,adherence,6.0,5.0,1.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-05-24,2027-05-24,24 May 2027,2,Quarantaine measures,Disagreement,All,adherence,9.0,8.0,1.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-05-24,2027-05-24,24 May 2027,3,Ban on public gathering,Agreement,All,adherence,85.0,87.0,-2.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-05-24,2027-05-24,24 May 2027,3,Ban on public gathering,Neutral,All,adherence,6.0,5.0,1.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-05-24,2027-05-24,24 May 2027,3,Ban on public gathering,Disagreement,All,adherence,9.0,8.0,1.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-05-24,2027-05-24,24 May 2027,4,Non-essential travel,Agreement,All,adherence,85.0,88.0,-3.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-05-24,2027-05-24,24 May 2027,4,Non-essential travel,Neutral,All,adherence,6.0,5.0,1.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-05-24,2027-05-24,24 May 2027,4,Non-essential travel,Disagreement,All,adherence,9.0,7.0,2.0,2027-05-10,10 May 2027,False,2027-05-24
+2027-06-07,2027-06-07,07 Jun 2027,1,Social Distancing,Agreement,All,adherence,90.0,92.0,-2.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-07,2027-06-07,07 Jun 2027,1,Social Distancing,Neutral,All,adherence,4.0,3.0,1.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-07,2027-06-07,07 Jun 2027,1,Social Distancing,Disagreement,All,adherence,6.0,5.0,1.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-07,2027-06-07,07 Jun 2027,2,Quarantaine measures,Agreement,All,adherence,85.0,85.0,0.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-07,2027-06-07,07 Jun 2027,2,Quarantaine measures,Neutral,All,adherence,6.0,6.0,0.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-07,2027-06-07,07 Jun 2027,2,Quarantaine measures,Disagreement,All,adherence,9.0,9.0,0.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-07,2027-06-07,07 Jun 2027,3,Ban on public gathering,Agreement,All,adherence,85.0,85.0,0.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-07,2027-06-07,07 Jun 2027,3,Ban on public gathering,Neutral,All,adherence,6.0,6.0,0.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-07,2027-06-07,07 Jun 2027,3,Ban on public gathering,Disagreement,All,adherence,9.0,9.0,0.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-07,2027-06-07,07 Jun 2027,4,Non-essential travel,Agreement,All,adherence,85.0,85.0,0.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-07,2027-06-07,07 Jun 2027,4,Non-essential travel,Neutral,All,adherence,6.0,6.0,0.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-07,2027-06-07,07 Jun 2027,4,Non-essential travel,Disagreement,All,adherence,9.0,9.0,0.0,2027-05-24,24 May 2027,False,2027-06-07
+2027-06-21,2027-06-21,21 Jun 2027,1,Social Distancing,Agreement,All,adherence,90.0,90.0,0.0,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-06-21,2027-06-21,21 Jun 2027,1,Social Distancing,Neutral,All,adherence,4.0,4.0,0.0,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-06-21,2027-06-21,21 Jun 2027,1,Social Distancing,Disagreement,All,adherence,6.0,6.0,0.0,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-06-21,2027-06-21,21 Jun 2027,2,Quarantaine measures,Agreement,All,adherence,85.0,85.0,0.0,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-06-21,2027-06-21,21 Jun 2027,2,Quarantaine measures,Neutral,All,adherence,6.0,6.0,0.0,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-06-21,2027-06-21,21 Jun 2027,2,Quarantaine measures,Disagreement,All,adherence,9.0,9.0,0.0,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-06-21,2027-06-21,21 Jun 2027,3,Ban on public gathering,Agreement,All,adherence,85.0,85.0,0.0,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-06-21,2027-06-21,21 Jun 2027,3,Ban on public gathering,Neutral,All,adherence,6.0,6.0,0.0,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-06-21,2027-06-21,21 Jun 2027,3,Ban on public gathering,Disagreement,All,adherence,9.0,9.0,0.0,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-06-21,2027-06-21,21 Jun 2027,4,Non-essential travel,Agreement,All,adherence,82.0,85.0,-3.0,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-06-21,2027-06-21,21 Jun 2027,4,Non-essential travel,Neutral,All,adherence,7.000000000000001,6.0,1.0000000000000009,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-06-21,2027-06-21,21 Jun 2027,4,Non-essential travel,Disagreement,All,adherence,11.0,9.0,2.0,2027-06-07,07 Jun 2027,False,2027-06-21
+2027-07-05,2027-07-05,05 Jul 2027,1,Social Distancing,Agreement,All,adherence,90.0,90.0,0.0,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-05,2027-07-05,05 Jul 2027,1,Social Distancing,Neutral,All,adherence,4.0,4.0,0.0,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-05,2027-07-05,05 Jul 2027,1,Social Distancing,Disagreement,All,adherence,6.0,6.0,0.0,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-05,2027-07-05,05 Jul 2027,2,Quarantaine measures,Agreement,All,adherence,85.0,85.0,0.0,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-05,2027-07-05,05 Jul 2027,2,Quarantaine measures,Neutral,All,adherence,6.0,6.0,0.0,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-05,2027-07-05,05 Jul 2027,2,Quarantaine measures,Disagreement,All,adherence,9.0,9.0,0.0,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-05,2027-07-05,05 Jul 2027,3,Ban on public gathering,Agreement,All,adherence,83.0,85.0,-2.0,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-05,2027-07-05,05 Jul 2027,3,Ban on public gathering,Neutral,All,adherence,7.000000000000001,6.0,1.0000000000000009,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-05,2027-07-05,05 Jul 2027,3,Ban on public gathering,Disagreement,All,adherence,10.0,9.0,1.0,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-05,2027-07-05,05 Jul 2027,4,Non-essential travel,Agreement,All,adherence,80.0,82.0,-2.0,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-05,2027-07-05,05 Jul 2027,4,Non-essential travel,Neutral,All,adherence,8.0,7.000000000000001,0.9999999999999991,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-05,2027-07-05,05 Jul 2027,4,Non-essential travel,Disagreement,All,adherence,12.0,11.0,1.0,2027-06-21,21 Jun 2027,False,2027-07-05
+2027-07-19,2027-07-19,19 Jul 2027,1,Social Distancing,Agreement,All,adherence,90.0,90.0,0.0,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-07-19,2027-07-19,19 Jul 2027,1,Social Distancing,Neutral,All,adherence,4.0,4.0,0.0,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-07-19,2027-07-19,19 Jul 2027,1,Social Distancing,Disagreement,All,adherence,6.0,6.0,0.0,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-07-19,2027-07-19,19 Jul 2027,2,Quarantaine measures,Agreement,All,adherence,83.0,85.0,-2.0,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-07-19,2027-07-19,19 Jul 2027,2,Quarantaine measures,Neutral,All,adherence,7.000000000000001,6.0,1.0000000000000009,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-07-19,2027-07-19,19 Jul 2027,2,Quarantaine measures,Disagreement,All,adherence,10.0,9.0,1.0,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-07-19,2027-07-19,19 Jul 2027,3,Ban on public gathering,Agreement,All,adherence,83.0,83.0,0.0,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-07-19,2027-07-19,19 Jul 2027,3,Ban on public gathering,Neutral,All,adherence,7.000000000000001,7.000000000000001,0.0,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-07-19,2027-07-19,19 Jul 2027,3,Ban on public gathering,Disagreement,All,adherence,10.0,10.0,0.0,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-07-19,2027-07-19,19 Jul 2027,4,Non-essential travel,Agreement,All,adherence,75.0,80.0,-5.0,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-07-19,2027-07-19,19 Jul 2027,4,Non-essential travel,Neutral,All,adherence,10.0,8.0,2.0,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-07-19,2027-07-19,19 Jul 2027,4,Non-essential travel,Disagreement,All,adherence,15.0,12.0,3.0,2027-07-05,05 Jul 2027,False,2027-07-19
+2027-08-09,2027-08-09,09 Aug 2027,1,Social Distancing,Agreement,All,adherence,88.0,90.0,-2.0,2027-07-19,19 Jul 2027,False,2027-08-09
+2027-08-09,2027-08-09,09 Aug 2027,1,Social Distancing,Neutral,All,adherence,5.0,4.0,1.0,2027-07-19,19 Jul 2027,False,2027-08-09
+2027-08-09,2027-08-09,09 Aug 2027,1,Social Distancing,Disagreement,All,adherence,7.0,6.0,1.0,2027-07-19,19 Jul 2027,False,2027-08-09
+2027-08-09,2027-08-09,09 Aug 2027,2,Quarantaine measures,Agreement,All,adherence,83.0,83.0,0.0,2027-07-19,19 Jul 2027,False,2027-08-09
+2027-08-09,2027-08-09,09 Aug 2027,2,Quarantaine measures,Neutral,All,adherence,7.000000000000001,7.000000000000001,0.0,2027-07-19,19 Jul 2027,False,2027-08-09
+2027-08-09,2027-08-09,09 Aug 2027,2,Quarantaine measures,Disagreement,All,adherence,10.0,10.0,0.0,2027-07-19,19 Jul 2027,False,2027-08-09
+2027-08-09,2027-08-09,09 Aug 2027,3,Ban on public gathering,Agreement,All,adherence,80.0,83.0,-3.0,2027-07-19,19 Jul 2027,False,2027-08-09
+2027-08-09,2027-08-09,09 Aug 2027,3,Ban on public gathering,Neutral,All,adherence,8.0,7.000000000000001,0.9999999999999991,2027-07-19,19 Jul 2027,False,2027-08-09
+2027-08-09,2027-08-09,09 Aug 2027,3,Ban on public gathering,Disagreement,All,adherence,12.0,10.0,2.0,2027-07-19,19 Jul 2027,False,2027-08-09
+2027-08-09,2027-08-09,09 Aug 2027,4,Non-essential travel,Agreement,All,adherence,75.0,75.0,0.0,2027-07-19,19 Jul 2027,False,2027-08-09
+2027-08-09,2027-08-09,09 Aug 2027,4,Non-essential travel,Neutral,All,adherence,10.0,10.0,0.0,2027-07-19,19 Jul 2027,False,2027-08-09
+2027-08-09,2027-08-09,09 Aug 2027,4,Non-essential travel,Disagreement,All,adherence,15.0,15.0,0.0,2027-07-19,19 Jul 2027,False,2027-08-09

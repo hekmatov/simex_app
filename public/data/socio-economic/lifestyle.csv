@@ -1,0 +1,221 @@
+Category,snapshot_id,Snapshot,Snapshot label,Question key,Question,Answer,Percentage
+Lifestyle,1,2027-03-15,15 Mar 2027,1,Sports and physical activity,Much more,8.8
+Lifestyle,1,2027-03-15,15 Mar 2027,1,Sports and physical activity,More,16.2
+Lifestyle,1,2027-03-15,15 Mar 2027,1,Sports and physical activity,The same / Not apliccable,35.0
+Lifestyle,1,2027-03-15,15 Mar 2027,1,Sports and physical activity,Less,26.0
+Lifestyle,1,2027-03-15,15 Mar 2027,1,Sports and physical activity,Much less,14.0
+Lifestyle,1,2027-03-15,15 Mar 2027,2,Eating a healthy diet,Much more,10.5
+Lifestyle,1,2027-03-15,15 Mar 2027,2,Eating a healthy diet,More,19.5
+Lifestyle,1,2027-03-15,15 Mar 2027,2,Eating a healthy diet,The same / Not apliccable,42.0
+Lifestyle,1,2027-03-15,15 Mar 2027,2,Eating a healthy diet,Less,18.2
+Lifestyle,1,2027-03-15,15 Mar 2027,2,Eating a healthy diet,Much less,9.8
+Lifestyle,1,2027-03-15,15 Mar 2027,3,Alcohol consumption,Much more,7.0
+Lifestyle,1,2027-03-15,15 Mar 2027,3,Alcohol consumption,More,13.0
+Lifestyle,1,2027-03-15,15 Mar 2027,3,Alcohol consumption,The same / Not apliccable,56.0
+Lifestyle,1,2027-03-15,15 Mar 2027,3,Alcohol consumption,Less,15.6
+Lifestyle,1,2027-03-15,15 Mar 2027,3,Alcohol consumption,Much less,8.4
+Lifestyle,1,2027-03-15,15 Mar 2027,4,Tabacco consumption,Much more,5.6
+Lifestyle,1,2027-03-15,15 Mar 2027,4,Tabacco consumption,More,10.4
+Lifestyle,1,2027-03-15,15 Mar 2027,4,Tabacco consumption,The same / Not apliccable,66.0
+Lifestyle,1,2027-03-15,15 Mar 2027,4,Tabacco consumption,Less,11.7
+Lifestyle,1,2027-03-15,15 Mar 2027,4,Tabacco consumption,Much less,6.3
+Lifestyle,2,2027-03-29,29 Mar 2027,1,Sports and physical activity,Much more,7.7
+Lifestyle,2,2027-03-29,29 Mar 2027,1,Sports and physical activity,More,14.3
+Lifestyle,2,2027-03-29,29 Mar 2027,1,Sports and physical activity,The same / Not apliccable,34.0
+Lifestyle,2,2027-03-29,29 Mar 2027,1,Sports and physical activity,Less,28.6
+Lifestyle,2,2027-03-29,29 Mar 2027,1,Sports and physical activity,Much less,15.4
+Lifestyle,2,2027-03-29,29 Mar 2027,2,Eating a healthy diet,Much more,9.8
+Lifestyle,2,2027-03-29,29 Mar 2027,2,Eating a healthy diet,More,18.2
+Lifestyle,2,2027-03-29,29 Mar 2027,2,Eating a healthy diet,The same / Not apliccable,42.0
+Lifestyle,2,2027-03-29,29 Mar 2027,2,Eating a healthy diet,Less,19.5
+Lifestyle,2,2027-03-29,29 Mar 2027,2,Eating a healthy diet,Much less,10.5
+Lifestyle,2,2027-03-29,29 Mar 2027,3,Alcohol consumption,Much more,7.7
+Lifestyle,2,2027-03-29,29 Mar 2027,3,Alcohol consumption,More,14.3
+Lifestyle,2,2027-03-29,29 Mar 2027,3,Alcohol consumption,The same / Not apliccable,55.0
+Lifestyle,2,2027-03-29,29 Mar 2027,3,Alcohol consumption,Less,15.0
+Lifestyle,2,2027-03-29,29 Mar 2027,3,Alcohol consumption,Much less,8.0
+Lifestyle,2,2027-03-29,29 Mar 2027,4,Tabacco consumption,Much more,5.9
+Lifestyle,2,2027-03-29,29 Mar 2027,4,Tabacco consumption,More,11.1
+Lifestyle,2,2027-03-29,29 Mar 2027,4,Tabacco consumption,The same / Not apliccable,66.0
+Lifestyle,2,2027-03-29,29 Mar 2027,4,Tabacco consumption,Less,11.1
+Lifestyle,2,2027-03-29,29 Mar 2027,4,Tabacco consumption,Much less,5.9
+Lifestyle,3,2027-04-12,12 Apr 2027,1,Sports and physical activity,Much more,7.0
+Lifestyle,3,2027-04-12,12 Apr 2027,1,Sports and physical activity,More,13.0
+Lifestyle,3,2027-04-12,12 Apr 2027,1,Sports and physical activity,The same / Not apliccable,33.0
+Lifestyle,3,2027-04-12,12 Apr 2027,1,Sports and physical activity,Less,30.6
+Lifestyle,3,2027-04-12,12 Apr 2027,1,Sports and physical activity,Much less,16.4
+Lifestyle,3,2027-04-12,12 Apr 2027,2,Eating a healthy diet,Much more,9.1
+Lifestyle,3,2027-04-12,12 Apr 2027,2,Eating a healthy diet,More,16.9
+Lifestyle,3,2027-04-12,12 Apr 2027,2,Eating a healthy diet,The same / Not apliccable,41.0
+Lifestyle,3,2027-04-12,12 Apr 2027,2,Eating a healthy diet,Less,21.5
+Lifestyle,3,2027-04-12,12 Apr 2027,2,Eating a healthy diet,Much less,11.5
+Lifestyle,3,2027-04-12,12 Apr 2027,3,Alcohol consumption,Much more,8.4
+Lifestyle,3,2027-04-12,12 Apr 2027,3,Alcohol consumption,More,15.6
+Lifestyle,3,2027-04-12,12 Apr 2027,3,Alcohol consumption,The same / Not apliccable,54.0
+Lifestyle,3,2027-04-12,12 Apr 2027,3,Alcohol consumption,Less,14.3
+Lifestyle,3,2027-04-12,12 Apr 2027,3,Alcohol consumption,Much less,7.7
+Lifestyle,3,2027-04-12,12 Apr 2027,4,Tabacco consumption,Much more,6.6
+Lifestyle,3,2027-04-12,12 Apr 2027,4,Tabacco consumption,More,12.4
+Lifestyle,3,2027-04-12,12 Apr 2027,4,Tabacco consumption,The same / Not apliccable,65.0
+Lifestyle,3,2027-04-12,12 Apr 2027,4,Tabacco consumption,Less,10.4
+Lifestyle,3,2027-04-12,12 Apr 2027,4,Tabacco consumption,Much less,5.6
+Lifestyle,4,2027-04-26,26 Apr 2027,1,Sports and physical activity,Much more,6.3
+Lifestyle,4,2027-04-26,26 Apr 2027,1,Sports and physical activity,More,11.7
+Lifestyle,4,2027-04-26,26 Apr 2027,1,Sports and physical activity,The same / Not apliccable,32.0
+Lifestyle,4,2027-04-26,26 Apr 2027,1,Sports and physical activity,Less,32.5
+Lifestyle,4,2027-04-26,26 Apr 2027,1,Sports and physical activity,Much less,17.5
+Lifestyle,4,2027-04-26,26 Apr 2027,2,Eating a healthy diet,Much more,8.8
+Lifestyle,4,2027-04-26,26 Apr 2027,2,Eating a healthy diet,More,16.2
+Lifestyle,4,2027-04-26,26 Apr 2027,2,Eating a healthy diet,The same / Not apliccable,40.0
+Lifestyle,4,2027-04-26,26 Apr 2027,2,Eating a healthy diet,Less,22.8
+Lifestyle,4,2027-04-26,26 Apr 2027,2,Eating a healthy diet,Much less,12.2
+Lifestyle,4,2027-04-26,26 Apr 2027,3,Alcohol consumption,Much more,9.1
+Lifestyle,4,2027-04-26,26 Apr 2027,3,Alcohol consumption,More,16.9
+Lifestyle,4,2027-04-26,26 Apr 2027,3,Alcohol consumption,The same / Not apliccable,53.0
+Lifestyle,4,2027-04-26,26 Apr 2027,3,Alcohol consumption,Less,13.7
+Lifestyle,4,2027-04-26,26 Apr 2027,3,Alcohol consumption,Much less,7.3
+Lifestyle,4,2027-04-26,26 Apr 2027,4,Tabacco consumption,Much more,7.3
+Lifestyle,4,2027-04-26,26 Apr 2027,4,Tabacco consumption,More,13.7
+Lifestyle,4,2027-04-26,26 Apr 2027,4,Tabacco consumption,The same / Not apliccable,64.0
+Lifestyle,4,2027-04-26,26 Apr 2027,4,Tabacco consumption,Less,9.8
+Lifestyle,4,2027-04-26,26 Apr 2027,4,Tabacco consumption,Much less,5.2
+Lifestyle,5,2027-05-10,10 May 2027,1,Sports and physical activity,Much more,6.0
+Lifestyle,5,2027-05-10,10 May 2027,1,Sports and physical activity,More,12.0
+Lifestyle,5,2027-05-10,10 May 2027,1,Sports and physical activity,The same / Not apliccable,33.0
+Lifestyle,5,2027-05-10,10 May 2027,1,Sports and physical activity,Less,32.0
+Lifestyle,5,2027-05-10,10 May 2027,1,Sports and physical activity,Much less,17.0
+Lifestyle,5,2027-05-10,10 May 2027,2,Eating a healthy diet,Much more,8.5
+Lifestyle,5,2027-05-10,10 May 2027,2,Eating a healthy diet,More,16.5
+Lifestyle,5,2027-05-10,10 May 2027,2,Eating a healthy diet,The same / Not apliccable,40.5
+Lifestyle,5,2027-05-10,10 May 2027,2,Eating a healthy diet,Less,22.5
+Lifestyle,5,2027-05-10,10 May 2027,2,Eating a healthy diet,Much less,12.0
+Lifestyle,5,2027-05-10,10 May 2027,3,Alcohol consumption,Much more,8.8
+Lifestyle,5,2027-05-10,10 May 2027,3,Alcohol consumption,More,16.2
+Lifestyle,5,2027-05-10,10 May 2027,3,Alcohol consumption,The same / Not apliccable,54.0
+Lifestyle,5,2027-05-10,10 May 2027,3,Alcohol consumption,Less,13.5
+Lifestyle,5,2027-05-10,10 May 2027,3,Alcohol consumption,Much less,7.5
+Lifestyle,5,2027-05-10,10 May 2027,4,Tabacco consumption,Much more,7.0
+Lifestyle,5,2027-05-10,10 May 2027,4,Tabacco consumption,More,13.5
+Lifestyle,5,2027-05-10,10 May 2027,4,Tabacco consumption,The same / Not apliccable,65.0
+Lifestyle,5,2027-05-10,10 May 2027,4,Tabacco consumption,Less,9.5
+Lifestyle,5,2027-05-10,10 May 2027,4,Tabacco consumption,Much less,5.0
+Lifestyle,6,2027-05-24,24 May 2027,1,Sports and physical activity,Much more,6.5
+Lifestyle,6,2027-05-24,24 May 2027,1,Sports and physical activity,More,13.5
+Lifestyle,6,2027-05-24,24 May 2027,1,Sports and physical activity,The same / Not apliccable,34.0
+Lifestyle,6,2027-05-24,24 May 2027,1,Sports and physical activity,Less,30.0
+Lifestyle,6,2027-05-24,24 May 2027,1,Sports and physical activity,Much less,16.0
+Lifestyle,6,2027-05-24,24 May 2027,2,Eating a healthy diet,Much more,9.0
+Lifestyle,6,2027-05-24,24 May 2027,2,Eating a healthy diet,More,17.0
+Lifestyle,6,2027-05-24,24 May 2027,2,Eating a healthy diet,The same / Not apliccable,41.0
+Lifestyle,6,2027-05-24,24 May 2027,2,Eating a healthy diet,Less,22.0
+Lifestyle,6,2027-05-24,24 May 2027,2,Eating a healthy diet,Much less,11.0
+Lifestyle,6,2027-05-24,24 May 2027,3,Alcohol consumption,Much more,8.5
+Lifestyle,6,2027-05-24,24 May 2027,3,Alcohol consumption,More,15.5
+Lifestyle,6,2027-05-24,24 May 2027,3,Alcohol consumption,The same / Not apliccable,55.0
+Lifestyle,6,2027-05-24,24 May 2027,3,Alcohol consumption,Less,13.5
+Lifestyle,6,2027-05-24,24 May 2027,3,Alcohol consumption,Much less,7.5
+Lifestyle,6,2027-05-24,24 May 2027,4,Tabacco consumption,Much more,6.8
+Lifestyle,6,2027-05-24,24 May 2027,4,Tabacco consumption,More,13.2
+Lifestyle,6,2027-05-24,24 May 2027,4,Tabacco consumption,The same / Not apliccable,65.5
+Lifestyle,6,2027-05-24,24 May 2027,4,Tabacco consumption,Less,9.5
+Lifestyle,6,2027-05-24,24 May 2027,4,Tabacco consumption,Much less,5.0
+Lifestyle,7,2027-06-07,07 Jun 2027,1,Sports and physical activity,Much more,7.5
+Lifestyle,7,2027-06-07,07 Jun 2027,1,Sports and physical activity,More,15.5
+Lifestyle,7,2027-06-07,07 Jun 2027,1,Sports and physical activity,The same / Not apliccable,35.0
+Lifestyle,7,2027-06-07,07 Jun 2027,1,Sports and physical activity,Less,28.0
+Lifestyle,7,2027-06-07,07 Jun 2027,1,Sports and physical activity,Much less,14.0
+Lifestyle,7,2027-06-07,07 Jun 2027,2,Eating a healthy diet,Much more,9.5
+Lifestyle,7,2027-06-07,07 Jun 2027,2,Eating a healthy diet,More,17.5
+Lifestyle,7,2027-06-07,07 Jun 2027,2,Eating a healthy diet,The same / Not apliccable,42.0
+Lifestyle,7,2027-06-07,07 Jun 2027,2,Eating a healthy diet,Less,21.0
+Lifestyle,7,2027-06-07,07 Jun 2027,2,Eating a healthy diet,Much less,10.0
+Lifestyle,7,2027-06-07,07 Jun 2027,3,Alcohol consumption,Much more,8.0
+Lifestyle,7,2027-06-07,07 Jun 2027,3,Alcohol consumption,More,15.0
+Lifestyle,7,2027-06-07,07 Jun 2027,3,Alcohol consumption,The same / Not apliccable,56.0
+Lifestyle,7,2027-06-07,07 Jun 2027,3,Alcohol consumption,Less,13.5
+Lifestyle,7,2027-06-07,07 Jun 2027,3,Alcohol consumption,Much less,7.5
+Lifestyle,7,2027-06-07,07 Jun 2027,4,Tabacco consumption,Much more,6.5
+Lifestyle,7,2027-06-07,07 Jun 2027,4,Tabacco consumption,More,12.5
+Lifestyle,7,2027-06-07,07 Jun 2027,4,Tabacco consumption,The same / Not apliccable,66.5
+Lifestyle,7,2027-06-07,07 Jun 2027,4,Tabacco consumption,Less,9.5
+Lifestyle,7,2027-06-07,07 Jun 2027,4,Tabacco consumption,Much less,5.0
+Lifestyle,8,2027-06-21,21 Jun 2027,1,Sports and physical activity,Much more,8.5
+Lifestyle,8,2027-06-21,21 Jun 2027,1,Sports and physical activity,More,17.5
+Lifestyle,8,2027-06-21,21 Jun 2027,1,Sports and physical activity,The same / Not apliccable,35.0
+Lifestyle,8,2027-06-21,21 Jun 2027,1,Sports and physical activity,Less,26.0
+Lifestyle,8,2027-06-21,21 Jun 2027,1,Sports and physical activity,Much less,13.0
+Lifestyle,8,2027-06-21,21 Jun 2027,2,Eating a healthy diet,Much more,10.0
+Lifestyle,8,2027-06-21,21 Jun 2027,2,Eating a healthy diet,More,18.0
+Lifestyle,8,2027-06-21,21 Jun 2027,2,Eating a healthy diet,The same / Not apliccable,43.0
+Lifestyle,8,2027-06-21,21 Jun 2027,2,Eating a healthy diet,Less,19.5
+Lifestyle,8,2027-06-21,21 Jun 2027,2,Eating a healthy diet,Much less,9.5
+Lifestyle,8,2027-06-21,21 Jun 2027,3,Alcohol consumption,Much more,8.0
+Lifestyle,8,2027-06-21,21 Jun 2027,3,Alcohol consumption,More,15.0
+Lifestyle,8,2027-06-21,21 Jun 2027,3,Alcohol consumption,The same / Not apliccable,57.0
+Lifestyle,8,2027-06-21,21 Jun 2027,3,Alcohol consumption,Less,13.0
+Lifestyle,8,2027-06-21,21 Jun 2027,3,Alcohol consumption,Much less,7.0
+Lifestyle,8,2027-06-21,21 Jun 2027,4,Tabacco consumption,Much more,6.5
+Lifestyle,8,2027-06-21,21 Jun 2027,4,Tabacco consumption,More,12.5
+Lifestyle,8,2027-06-21,21 Jun 2027,4,Tabacco consumption,The same / Not apliccable,67.0
+Lifestyle,8,2027-06-21,21 Jun 2027,4,Tabacco consumption,Less,9.0
+Lifestyle,8,2027-06-21,21 Jun 2027,4,Tabacco consumption,Much less,5.0
+Lifestyle,9,2027-07-05,05 Jul 2027,1,Sports and physical activity,Much more,9.5
+Lifestyle,9,2027-07-05,05 Jul 2027,1,Sports and physical activity,More,19.5
+Lifestyle,9,2027-07-05,05 Jul 2027,1,Sports and physical activity,The same / Not apliccable,35.0
+Lifestyle,9,2027-07-05,05 Jul 2027,1,Sports and physical activity,Less,24.0
+Lifestyle,9,2027-07-05,05 Jul 2027,1,Sports and physical activity,Much less,12.0
+Lifestyle,9,2027-07-05,05 Jul 2027,2,Eating a healthy diet,Much more,10.5
+Lifestyle,9,2027-07-05,05 Jul 2027,2,Eating a healthy diet,More,18.5
+Lifestyle,9,2027-07-05,05 Jul 2027,2,Eating a healthy diet,The same / Not apliccable,43.0
+Lifestyle,9,2027-07-05,05 Jul 2027,2,Eating a healthy diet,Less,19.0
+Lifestyle,9,2027-07-05,05 Jul 2027,2,Eating a healthy diet,Much less,9.0
+Lifestyle,9,2027-07-05,05 Jul 2027,3,Alcohol consumption,Much more,8.5
+Lifestyle,9,2027-07-05,05 Jul 2027,3,Alcohol consumption,More,15.5
+Lifestyle,9,2027-07-05,05 Jul 2027,3,Alcohol consumption,The same / Not apliccable,57.0
+Lifestyle,9,2027-07-05,05 Jul 2027,3,Alcohol consumption,Less,12.5
+Lifestyle,9,2027-07-05,05 Jul 2027,3,Alcohol consumption,Much less,6.5
+Lifestyle,9,2027-07-05,05 Jul 2027,4,Tabacco consumption,Much more,6.5
+Lifestyle,9,2027-07-05,05 Jul 2027,4,Tabacco consumption,More,12.5
+Lifestyle,9,2027-07-05,05 Jul 2027,4,Tabacco consumption,The same / Not apliccable,67.5
+Lifestyle,9,2027-07-05,05 Jul 2027,4,Tabacco consumption,Less,8.5
+Lifestyle,9,2027-07-05,05 Jul 2027,4,Tabacco consumption,Much less,5.0
+Lifestyle,10,2027-07-19,19 Jul 2027,1,Sports and physical activity,Much more,10.5
+Lifestyle,10,2027-07-19,19 Jul 2027,1,Sports and physical activity,More,20.5
+Lifestyle,10,2027-07-19,19 Jul 2027,1,Sports and physical activity,The same / Not apliccable,34.0
+Lifestyle,10,2027-07-19,19 Jul 2027,1,Sports and physical activity,Less,23.0
+Lifestyle,10,2027-07-19,19 Jul 2027,1,Sports and physical activity,Much less,12.0
+Lifestyle,10,2027-07-19,19 Jul 2027,2,Eating a healthy diet,Much more,10.5
+Lifestyle,10,2027-07-19,19 Jul 2027,2,Eating a healthy diet,More,18.5
+Lifestyle,10,2027-07-19,19 Jul 2027,2,Eating a healthy diet,The same / Not apliccable,43.5
+Lifestyle,10,2027-07-19,19 Jul 2027,2,Eating a healthy diet,Less,18.5
+Lifestyle,10,2027-07-19,19 Jul 2027,2,Eating a healthy diet,Much less,9.0
+Lifestyle,10,2027-07-19,19 Jul 2027,3,Alcohol consumption,Much more,8.5
+Lifestyle,10,2027-07-19,19 Jul 2027,3,Alcohol consumption,More,16.5
+Lifestyle,10,2027-07-19,19 Jul 2027,3,Alcohol consumption,The same / Not apliccable,57.0
+Lifestyle,10,2027-07-19,19 Jul 2027,3,Alcohol consumption,Less,12.0
+Lifestyle,10,2027-07-19,19 Jul 2027,3,Alcohol consumption,Much less,6.0
+Lifestyle,10,2027-07-19,19 Jul 2027,4,Tabacco consumption,Much more,6.5
+Lifestyle,10,2027-07-19,19 Jul 2027,4,Tabacco consumption,More,12.5
+Lifestyle,10,2027-07-19,19 Jul 2027,4,Tabacco consumption,The same / Not apliccable,67.5
+Lifestyle,10,2027-07-19,19 Jul 2027,4,Tabacco consumption,Less,8.5
+Lifestyle,10,2027-07-19,19 Jul 2027,4,Tabacco consumption,Much less,5.0
+Lifestyle,11,2027-08-09,09 Aug 2027,1,Sports and physical activity,Much more,10.0
+Lifestyle,11,2027-08-09,09 Aug 2027,1,Sports and physical activity,More,20.0
+Lifestyle,11,2027-08-09,09 Aug 2027,1,Sports and physical activity,The same / Not apliccable,34.0
+Lifestyle,11,2027-08-09,09 Aug 2027,1,Sports and physical activity,Less,24.0
+Lifestyle,11,2027-08-09,09 Aug 2027,1,Sports and physical activity,Much less,12.0
+Lifestyle,11,2027-08-09,09 Aug 2027,2,Eating a healthy diet,Much more,10.5
+Lifestyle,11,2027-08-09,09 Aug 2027,2,Eating a healthy diet,More,18.5
+Lifestyle,11,2027-08-09,09 Aug 2027,2,Eating a healthy diet,The same / Not apliccable,44.0
+Lifestyle,11,2027-08-09,09 Aug 2027,2,Eating a healthy diet,Less,18.0
+Lifestyle,11,2027-08-09,09 Aug 2027,2,Eating a healthy diet,Much less,9.0
+Lifestyle,11,2027-08-09,09 Aug 2027,3,Alcohol consumption,Much more,8.5
+Lifestyle,11,2027-08-09,09 Aug 2027,3,Alcohol consumption,More,16.5
+Lifestyle,11,2027-08-09,09 Aug 2027,3,Alcohol consumption,The same / Not apliccable,57.0
+Lifestyle,11,2027-08-09,09 Aug 2027,3,Alcohol consumption,Less,12.0
+Lifestyle,11,2027-08-09,09 Aug 2027,3,Alcohol consumption,Much less,6.0
+Lifestyle,11,2027-08-09,09 Aug 2027,4,Tabacco consumption,Much more,6.5
+Lifestyle,11,2027-08-09,09 Aug 2027,4,Tabacco consumption,More,12.5
+Lifestyle,11,2027-08-09,09 Aug 2027,4,Tabacco consumption,The same / Not apliccable,67.5
+Lifestyle,11,2027-08-09,09 Aug 2027,4,Tabacco consumption,Less,8.5
+Lifestyle,11,2027-08-09,09 Aug 2027,4,Tabacco consumption,Much less,5.0

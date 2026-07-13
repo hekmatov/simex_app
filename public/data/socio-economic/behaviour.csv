@@ -1,0 +1,551 @@
+date,date_value,Month Label,Question key,Question,Answer,Percentage,Age group,Behaviour type
+2027-03-15,2027-03-15,15 Mar 2027,1,Social Distancing,Agree,51.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,1,Social Distancing,Disagree,5.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,1,Social Distancing,Neutral,6.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,1,Social Distancing,Strongly agree,35.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,1,Social Distancing,Strongly disagree,3.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,2,Quarantaine measures,Agree,51.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,2,Quarantaine measures,Disagree,5.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,2,Quarantaine measures,Neutral,6.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,2,Quarantaine measures,Strongly agree,35.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,2,Quarantaine measures,Strongly disagree,3.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,3,Ban on public gathering,Agree,50.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,3,Ban on public gathering,Disagree,7.000000000000001,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,3,Ban on public gathering,Neutral,7.000000000000001,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,3,Ban on public gathering,Strongly agree,32.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,3,Ban on public gathering,Strongly disagree,4.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,4,Non-essential travel,Agree,51.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,4,Non-essential travel,Disagree,8.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,4,Non-essential travel,Neutral,7.000000000000001,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,4,Non-essential travel,Strongly agree,30.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,4,Non-essential travel,Strongly disagree,4.0,All,adherence
+2027-03-15,2027-03-15,15 Mar 2027,1,Impact on Society,Agree,45.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,1,Impact on Society,Disagree,8.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,1,Impact on Society,Neutral,8.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,1,Impact on Society,Strongly agree,34.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,1,Impact on Society,Strongly disagree,5.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,2,Neurological damage,Agree,40.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,2,Neurological damage,Disagree,17.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,2,Neurological damage,Neutral,10.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,2,Neurological damage,Strongly agree,22.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,2,Neurological damage,Strongly disagree,11.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,3,Healthcare capacity,Agree,45.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,3,Healthcare capacity,Disagree,12.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,3,Healthcare capacity,Neutral,9.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,3,Healthcare capacity,Strongly agree,28.000000000000004,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,3,Healthcare capacity,Strongly disagree,6.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,4,Impact on vulnerable groups,Agree,36.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,4,Impact on vulnerable groups,Disagree,22.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,4,Impact on vulnerable groups,Neutral,11.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,4,Impact on vulnerable groups,Strongly agree,18.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,4,Impact on vulnerable groups,Strongly disagree,13.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,5,Miscarriages,Agree,31.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,5,Miscarriages,Disagree,25.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,5,Miscarriages,Neutral,12.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,5,Miscarriages,Strongly agree,15.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,5,Miscarriages,Strongly disagree,17.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,6,Duration of current measures,Agree,25.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,6,Duration of current measures,Disagree,30.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,6,Duration of current measures,Neutral,12.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,6,Duration of current measures,Strongly agree,10.0,All,risk_perception
+2027-03-15,2027-03-15,15 Mar 2027,6,Duration of current measures,Strongly disagree,23.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,1,Social Distancing,Agree,51.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,1,Social Distancing,Disagree,6.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,1,Social Distancing,Neutral,7.000000000000001,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,1,Social Distancing,Strongly agree,33.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,1,Social Distancing,Strongly disagree,3.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,2,Quarantaine measures,Agree,51.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,2,Quarantaine measures,Disagree,6.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,2,Quarantaine measures,Neutral,7.000000000000001,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,2,Quarantaine measures,Strongly agree,33.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,2,Quarantaine measures,Strongly disagree,3.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,3,Ban on public gathering,Agree,50.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,3,Ban on public gathering,Disagree,7.000000000000001,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,3,Ban on public gathering,Neutral,7.000000000000001,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,3,Ban on public gathering,Strongly agree,32.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,3,Ban on public gathering,Strongly disagree,4.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,4,Non-essential travel,Agree,51.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,4,Non-essential travel,Disagree,8.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,4,Non-essential travel,Neutral,8.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,4,Non-essential travel,Strongly agree,28.999999999999996,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,4,Non-essential travel,Strongly disagree,4.0,All,adherence
+2027-03-29,2027-03-29,29 Mar 2027,1,Impact on Society,Agree,45.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,1,Impact on Society,Disagree,9.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,1,Impact on Society,Neutral,8.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,1,Impact on Society,Strongly agree,32.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,1,Impact on Society,Strongly disagree,6.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,2,Neurological damage,Agree,41.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,2,Neurological damage,Disagree,17.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,2,Neurological damage,Neutral,9.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,2,Neurological damage,Strongly agree,23.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,2,Neurological damage,Strongly disagree,10.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,3,Healthcare capacity,Agree,45.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,3,Healthcare capacity,Disagree,13.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,3,Healthcare capacity,Neutral,9.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,3,Healthcare capacity,Strongly agree,27.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,3,Healthcare capacity,Strongly disagree,6.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,4,Impact on vulnerable groups,Agree,37.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,4,Impact on vulnerable groups,Disagree,21.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,4,Impact on vulnerable groups,Neutral,10.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,4,Impact on vulnerable groups,Strongly agree,20.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,4,Impact on vulnerable groups,Strongly disagree,12.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,5,Miscarriages,Agree,33.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,5,Miscarriages,Disagree,24.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,5,Miscarriages,Neutral,11.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,5,Miscarriages,Strongly agree,17.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,5,Miscarriages,Strongly disagree,15.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,6,Duration of current measures,Agree,28.000000000000004,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,6,Duration of current measures,Disagree,28.000000000000004,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,6,Duration of current measures,Neutral,11.0,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,6,Duration of current measures,Strongly agree,14.000000000000002,All,risk_perception
+2027-03-29,2027-03-29,29 Mar 2027,6,Duration of current measures,Strongly disagree,19.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,1,Social Distancing,Agree,51.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,1,Social Distancing,Disagree,8.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,1,Social Distancing,Neutral,8.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,1,Social Distancing,Strongly agree,28.999999999999996,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,1,Social Distancing,Strongly disagree,4.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,2,Quarantaine measures,Agree,51.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,2,Quarantaine measures,Disagree,8.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,2,Quarantaine measures,Neutral,8.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,2,Quarantaine measures,Strongly agree,28.999999999999996,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,2,Quarantaine measures,Strongly disagree,4.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,3,Ban on public gathering,Agree,50.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,3,Ban on public gathering,Disagree,8.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,3,Ban on public gathering,Neutral,8.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,3,Ban on public gathering,Strongly agree,30.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,3,Ban on public gathering,Strongly disagree,4.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,4,Non-essential travel,Agree,52.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,4,Non-essential travel,Disagree,9.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,4,Non-essential travel,Neutral,8.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,4,Non-essential travel,Strongly agree,27.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,4,Non-essential travel,Strongly disagree,4.0,All,adherence
+2027-04-12,2027-04-12,12 Apr 2027,1,Impact on Society,Agree,44.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,1,Impact on Society,Disagree,10.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,1,Impact on Society,Neutral,8.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,1,Impact on Society,Strongly agree,31.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,1,Impact on Society,Strongly disagree,7.000000000000001,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,2,Neurological damage,Agree,41.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,2,Neurological damage,Disagree,16.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,2,Neurological damage,Neutral,9.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,2,Neurological damage,Strongly agree,25.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,2,Neurological damage,Strongly disagree,9.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,3,Healthcare capacity,Agree,44.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,3,Healthcare capacity,Disagree,14.000000000000002,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,3,Healthcare capacity,Neutral,9.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,3,Healthcare capacity,Strongly agree,25.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,3,Healthcare capacity,Strongly disagree,8.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,4,Impact on vulnerable groups,Agree,38.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,4,Impact on vulnerable groups,Disagree,20.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,4,Impact on vulnerable groups,Neutral,10.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,4,Impact on vulnerable groups,Strongly agree,21.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,4,Impact on vulnerable groups,Strongly disagree,11.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,5,Miscarriages,Agree,34.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,5,Miscarriages,Disagree,23.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,5,Miscarriages,Neutral,11.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,5,Miscarriages,Strongly agree,19.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,5,Miscarriages,Strongly disagree,13.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,6,Duration of current measures,Agree,32.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,6,Duration of current measures,Disagree,25.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,6,Duration of current measures,Neutral,10.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,6,Duration of current measures,Strongly agree,18.0,All,risk_perception
+2027-04-12,2027-04-12,12 Apr 2027,6,Duration of current measures,Strongly disagree,15.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,1,Social Distancing,Agree,51.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,1,Social Distancing,Disagree,11.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,1,Social Distancing,Neutral,9.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,1,Social Distancing,Strongly agree,24.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,1,Social Distancing,Strongly disagree,5.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,2,Quarantaine measures,Agree,51.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,2,Quarantaine measures,Disagree,11.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,2,Quarantaine measures,Neutral,9.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,2,Quarantaine measures,Strongly agree,24.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,2,Quarantaine measures,Strongly disagree,5.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,3,Ban on public gathering,Agree,50.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,3,Ban on public gathering,Disagree,8.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,3,Ban on public gathering,Neutral,9.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,3,Ban on public gathering,Strongly agree,28.999999999999996,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,3,Ban on public gathering,Strongly disagree,4.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,4,Non-essential travel,Agree,52.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,4,Non-essential travel,Disagree,12.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,4,Non-essential travel,Neutral,9.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,4,Non-essential travel,Strongly agree,22.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,4,Non-essential travel,Strongly disagree,5.0,All,adherence
+2027-04-26,2027-04-26,26 Apr 2027,1,Impact on Society,Agree,43.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,1,Impact on Society,Disagree,11.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,1,Impact on Society,Neutral,9.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,1,Impact on Society,Strongly agree,28.999999999999996,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,1,Impact on Society,Strongly disagree,8.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,2,Neurological damage,Agree,41.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,2,Neurological damage,Disagree,14.000000000000002,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,2,Neurological damage,Neutral,9.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,2,Neurological damage,Strongly agree,27.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,2,Neurological damage,Strongly disagree,9.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,3,Healthcare capacity,Agree,42.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,3,Healthcare capacity,Disagree,16.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,3,Healthcare capacity,Neutral,10.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,3,Healthcare capacity,Strongly agree,23.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,3,Healthcare capacity,Strongly disagree,9.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,4,Impact on vulnerable groups,Agree,39.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,4,Impact on vulnerable groups,Disagree,18.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,4,Impact on vulnerable groups,Neutral,10.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,4,Impact on vulnerable groups,Strongly agree,22.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,4,Impact on vulnerable groups,Strongly disagree,11.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,5,Miscarriages,Agree,35.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,5,Miscarriages,Disagree,21.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,5,Miscarriages,Neutral,11.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,5,Miscarriages,Strongly agree,21.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,5,Miscarriages,Strongly disagree,12.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,6,Duration of current measures,Agree,36.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,6,Duration of current measures,Disagree,22.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,6,Duration of current measures,Neutral,9.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,6,Duration of current measures,Strongly agree,22.0,All,risk_perception
+2027-04-26,2027-04-26,26 Apr 2027,6,Duration of current measures,Strongly disagree,11.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,1,Social Distancing,Agree,7.000000000000001,All,adherence
+2027-05-10,2027-05-10,10 May 2027,1,Social Distancing,Disagree,3.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,1,Social Distancing,Neutral,3.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,1,Social Distancing,Strongly agree,85.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,1,Social Distancing,Strongly disagree,2.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,2,Quarantaine measures,Agree,13.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,2,Quarantaine measures,Disagree,5.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,2,Quarantaine measures,Neutral,5.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,2,Quarantaine measures,Strongly agree,74.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,2,Quarantaine measures,Strongly disagree,3.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,3,Ban on public gathering,Agree,14.000000000000002,All,adherence
+2027-05-10,2027-05-10,10 May 2027,3,Ban on public gathering,Disagree,5.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,3,Ban on public gathering,Neutral,5.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,3,Ban on public gathering,Strongly agree,73.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,3,Ban on public gathering,Strongly disagree,3.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,4,Non-essential travel,Agree,12.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,4,Non-essential travel,Disagree,5.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,4,Non-essential travel,Neutral,5.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,4,Non-essential travel,Strongly agree,76.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,4,Non-essential travel,Strongly disagree,2.0,All,adherence
+2027-05-10,2027-05-10,10 May 2027,1,Impact on Society,Agree,39.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,1,Impact on Society,Disagree,18.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,1,Impact on Society,Neutral,10.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,1,Impact on Society,Strongly agree,24.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,1,Impact on Society,Strongly disagree,9.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,2,Neurological damage,Agree,38.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,2,Neurological damage,Disagree,16.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,2,Neurological damage,Neutral,10.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,2,Neurological damage,Strongly agree,27.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,2,Neurological damage,Strongly disagree,9.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,3,Healthcare capacity,Agree,38.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,3,Healthcare capacity,Disagree,16.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,3,Healthcare capacity,Neutral,10.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,3,Healthcare capacity,Strongly agree,27.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,3,Healthcare capacity,Strongly disagree,9.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,4,Impact on vulnerable groups,Agree,36.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,4,Impact on vulnerable groups,Disagree,21.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,4,Impact on vulnerable groups,Neutral,10.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,4,Impact on vulnerable groups,Strongly agree,22.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,4,Impact on vulnerable groups,Strongly disagree,11.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,5,Miscarriages,Agree,35.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,5,Miscarriages,Disagree,22.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,5,Miscarriages,Neutral,10.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,5,Miscarriages,Strongly agree,21.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,5,Miscarriages,Strongly disagree,12.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,6,Duration of current measures,Agree,34.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,6,Duration of current measures,Disagree,25.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,6,Duration of current measures,Neutral,10.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,6,Duration of current measures,Strongly agree,18.0,All,risk_perception
+2027-05-10,2027-05-10,10 May 2027,6,Duration of current measures,Strongly disagree,13.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,1,Social Distancing,Agree,9.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,1,Social Distancing,Disagree,3.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,1,Social Distancing,Neutral,3.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,1,Social Distancing,Strongly agree,83.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,1,Social Distancing,Strongly disagree,2.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,2,Quarantaine measures,Agree,14.000000000000002,All,adherence
+2027-05-24,2027-05-24,24 May 2027,2,Quarantaine measures,Disagree,6.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,2,Quarantaine measures,Neutral,6.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,2,Quarantaine measures,Strongly agree,71.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,2,Quarantaine measures,Strongly disagree,3.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,3,Ban on public gathering,Agree,14.000000000000002,All,adherence
+2027-05-24,2027-05-24,24 May 2027,3,Ban on public gathering,Disagree,6.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,3,Ban on public gathering,Neutral,6.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,3,Ban on public gathering,Strongly agree,71.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,3,Ban on public gathering,Strongly disagree,3.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,4,Non-essential travel,Agree,13.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,4,Non-essential travel,Disagree,6.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,4,Non-essential travel,Neutral,6.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,4,Non-essential travel,Strongly agree,72.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,4,Non-essential travel,Strongly disagree,3.0,All,adherence
+2027-05-24,2027-05-24,24 May 2027,1,Impact on Society,Agree,35.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,1,Impact on Society,Disagree,23.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,1,Impact on Society,Neutral,10.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,1,Impact on Society,Strongly agree,19.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,1,Impact on Society,Strongly disagree,13.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,2,Neurological damage,Agree,38.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,2,Neurological damage,Disagree,16.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,2,Neurological damage,Neutral,10.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,2,Neurological damage,Strongly agree,27.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,2,Neurological damage,Strongly disagree,9.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,3,Healthcare capacity,Agree,38.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,3,Healthcare capacity,Disagree,16.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,3,Healthcare capacity,Neutral,10.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,3,Healthcare capacity,Strongly agree,27.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,3,Healthcare capacity,Strongly disagree,9.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,4,Impact on vulnerable groups,Agree,35.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,4,Impact on vulnerable groups,Disagree,22.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,4,Impact on vulnerable groups,Neutral,10.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,4,Impact on vulnerable groups,Strongly agree,21.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,4,Impact on vulnerable groups,Strongly disagree,12.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,5,Miscarriages,Agree,35.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,5,Miscarriages,Disagree,22.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,5,Miscarriages,Neutral,10.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,5,Miscarriages,Strongly agree,21.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,5,Miscarriages,Strongly disagree,12.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,6,Duration of current measures,Agree,31.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,6,Duration of current measures,Disagree,28.000000000000004,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,6,Duration of current measures,Neutral,10.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,6,Duration of current measures,Strongly agree,16.0,All,risk_perception
+2027-05-24,2027-05-24,24 May 2027,6,Duration of current measures,Strongly disagree,15.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,1,Social Distancing,Agree,8.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,1,Social Distancing,Disagree,4.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,1,Social Distancing,Neutral,4.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,1,Social Distancing,Strongly agree,82.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,1,Social Distancing,Strongly disagree,2.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,2,Quarantaine measures,Agree,15.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,2,Quarantaine measures,Disagree,6.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,2,Quarantaine measures,Neutral,6.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,2,Quarantaine measures,Strongly agree,70.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,2,Quarantaine measures,Strongly disagree,3.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,3,Ban on public gathering,Agree,15.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,3,Ban on public gathering,Disagree,6.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,3,Ban on public gathering,Neutral,6.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,3,Ban on public gathering,Strongly agree,70.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,3,Ban on public gathering,Strongly disagree,3.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,4,Non-essential travel,Agree,17.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,4,Non-essential travel,Disagree,6.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,4,Non-essential travel,Neutral,6.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,4,Non-essential travel,Strongly agree,68.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,4,Non-essential travel,Strongly disagree,3.0,All,adherence
+2027-06-07,2027-06-07,07 Jun 2027,1,Impact on Society,Agree,34.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,1,Impact on Society,Disagree,25.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,1,Impact on Society,Neutral,10.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,1,Impact on Society,Strongly agree,18.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,1,Impact on Society,Strongly disagree,13.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,2,Neurological damage,Agree,40.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,2,Neurological damage,Disagree,17.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,2,Neurological damage,Neutral,10.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,2,Neurological damage,Strongly agree,24.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,2,Neurological damage,Strongly disagree,9.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,3,Healthcare capacity,Agree,38.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,3,Healthcare capacity,Disagree,18.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,3,Healthcare capacity,Neutral,10.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,3,Healthcare capacity,Strongly agree,24.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,3,Healthcare capacity,Strongly disagree,10.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,4,Impact on vulnerable groups,Agree,36.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,4,Impact on vulnerable groups,Disagree,21.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,4,Impact on vulnerable groups,Neutral,10.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,4,Impact on vulnerable groups,Strongly agree,22.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,4,Impact on vulnerable groups,Strongly disagree,11.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,5,Miscarriages,Agree,35.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,5,Miscarriages,Disagree,22.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,5,Miscarriages,Neutral,10.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,5,Miscarriages,Strongly agree,21.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,5,Miscarriages,Strongly disagree,12.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,6,Duration of current measures,Agree,28.999999999999996,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,6,Duration of current measures,Disagree,31.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,6,Duration of current measures,Neutral,10.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,6,Duration of current measures,Strongly agree,13.0,All,risk_perception
+2027-06-07,2027-06-07,07 Jun 2027,6,Duration of current measures,Strongly disagree,17.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,1,Social Distancing,Agree,8.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,1,Social Distancing,Disagree,4.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,1,Social Distancing,Neutral,4.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,1,Social Distancing,Strongly agree,82.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,1,Social Distancing,Strongly disagree,2.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,2,Quarantaine measures,Agree,15.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,2,Quarantaine measures,Disagree,6.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,2,Quarantaine measures,Neutral,6.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,2,Quarantaine measures,Strongly agree,70.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,2,Quarantaine measures,Strongly disagree,3.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,3,Ban on public gathering,Agree,16.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,3,Ban on public gathering,Disagree,6.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,3,Ban on public gathering,Neutral,6.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,3,Ban on public gathering,Strongly agree,69.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,3,Ban on public gathering,Strongly disagree,3.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,4,Non-essential travel,Agree,18.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,4,Non-essential travel,Disagree,7.000000000000001,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,4,Non-essential travel,Neutral,7.000000000000001,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,4,Non-essential travel,Strongly agree,64.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,4,Non-essential travel,Strongly disagree,4.0,All,adherence
+2027-06-21,2027-06-21,21 Jun 2027,1,Impact on Society,Agree,32.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,1,Impact on Society,Disagree,27.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,1,Impact on Society,Neutral,10.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,1,Impact on Society,Strongly agree,17.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,1,Impact on Society,Strongly disagree,14.000000000000002,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,2,Neurological damage,Agree,40.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,2,Neurological damage,Disagree,17.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,2,Neurological damage,Neutral,10.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,2,Neurological damage,Strongly agree,24.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,2,Neurological damage,Strongly disagree,9.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,3,Healthcare capacity,Agree,36.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,3,Healthcare capacity,Disagree,21.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,3,Healthcare capacity,Neutral,10.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,3,Healthcare capacity,Strongly agree,22.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,3,Healthcare capacity,Strongly disagree,11.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,4,Impact on vulnerable groups,Agree,37.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,4,Impact on vulnerable groups,Disagree,20.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,4,Impact on vulnerable groups,Neutral,10.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,4,Impact on vulnerable groups,Strongly agree,22.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,4,Impact on vulnerable groups,Strongly disagree,11.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,5,Miscarriages,Agree,35.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,5,Miscarriages,Disagree,22.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,5,Miscarriages,Neutral,10.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,5,Miscarriages,Strongly agree,21.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,5,Miscarriages,Strongly disagree,12.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,6,Duration of current measures,Agree,27.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,6,Duration of current measures,Disagree,34.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,6,Duration of current measures,Neutral,10.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,6,Duration of current measures,Strongly agree,11.0,All,risk_perception
+2027-06-21,2027-06-21,21 Jun 2027,6,Duration of current measures,Strongly disagree,18.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,1,Social Distancing,Agree,10.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,1,Social Distancing,Disagree,4.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,1,Social Distancing,Neutral,4.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,1,Social Distancing,Strongly agree,80.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,1,Social Distancing,Strongly disagree,2.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,2,Quarantaine measures,Agree,17.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,2,Quarantaine measures,Disagree,6.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,2,Quarantaine measures,Neutral,6.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,2,Quarantaine measures,Strongly agree,68.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,2,Quarantaine measures,Strongly disagree,3.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,3,Ban on public gathering,Agree,16.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,3,Ban on public gathering,Disagree,7.000000000000001,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,3,Ban on public gathering,Neutral,7.000000000000001,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,3,Ban on public gathering,Strongly agree,67.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,3,Ban on public gathering,Strongly disagree,3.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,4,Non-essential travel,Agree,22.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,4,Non-essential travel,Disagree,8.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,4,Non-essential travel,Neutral,8.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,4,Non-essential travel,Strongly agree,57.99999999999999,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,4,Non-essential travel,Strongly disagree,4.0,All,adherence
+2027-07-05,2027-07-05,05 Jul 2027,1,Impact on Society,Agree,33.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,1,Impact on Society,Disagree,25.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,1,Impact on Society,Neutral,10.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,1,Impact on Society,Strongly agree,18.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,1,Impact on Society,Strongly disagree,14.000000000000002,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,2,Neurological damage,Agree,40.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,2,Neurological damage,Disagree,17.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,2,Neurological damage,Neutral,10.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,2,Neurological damage,Strongly agree,24.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,2,Neurological damage,Strongly disagree,9.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,3,Healthcare capacity,Agree,35.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,3,Healthcare capacity,Disagree,22.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,3,Healthcare capacity,Neutral,10.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,3,Healthcare capacity,Strongly agree,21.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,3,Healthcare capacity,Strongly disagree,12.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,4,Impact on vulnerable groups,Agree,37.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,4,Impact on vulnerable groups,Disagree,20.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,4,Impact on vulnerable groups,Neutral,10.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,4,Impact on vulnerable groups,Strongly agree,23.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,4,Impact on vulnerable groups,Strongly disagree,10.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,5,Miscarriages,Agree,35.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,5,Miscarriages,Disagree,22.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,5,Miscarriages,Neutral,10.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,5,Miscarriages,Strongly agree,21.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,5,Miscarriages,Strongly disagree,12.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,6,Duration of current measures,Agree,25.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,6,Duration of current measures,Disagree,36.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,6,Duration of current measures,Neutral,10.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,6,Duration of current measures,Strongly agree,10.0,All,risk_perception
+2027-07-05,2027-07-05,05 Jul 2027,6,Duration of current measures,Strongly disagree,19.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,1,Social Distancing,Agree,11.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,1,Social Distancing,Disagree,4.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,1,Social Distancing,Neutral,4.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,1,Social Distancing,Strongly agree,79.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,1,Social Distancing,Strongly disagree,2.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,2,Quarantaine measures,Agree,16.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,2,Quarantaine measures,Disagree,7.000000000000001,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,2,Quarantaine measures,Neutral,7.000000000000001,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,2,Quarantaine measures,Strongly agree,67.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,2,Quarantaine measures,Strongly disagree,3.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,3,Ban on public gathering,Agree,18.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,3,Ban on public gathering,Disagree,7.000000000000001,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,3,Ban on public gathering,Neutral,7.000000000000001,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,3,Ban on public gathering,Strongly agree,65.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,3,Ban on public gathering,Strongly disagree,3.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,4,Non-essential travel,Agree,23.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,4,Non-essential travel,Disagree,10.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,4,Non-essential travel,Neutral,10.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,4,Non-essential travel,Strongly agree,52.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,4,Non-essential travel,Strongly disagree,5.0,All,adherence
+2027-07-19,2027-07-19,19 Jul 2027,1,Impact on Society,Agree,34.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,1,Impact on Society,Disagree,24.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,1,Impact on Society,Neutral,10.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,1,Impact on Society,Strongly agree,19.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,1,Impact on Society,Strongly disagree,13.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,2,Neurological damage,Agree,40.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,2,Neurological damage,Disagree,17.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,2,Neurological damage,Neutral,10.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,2,Neurological damage,Strongly agree,24.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,2,Neurological damage,Strongly disagree,9.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,3,Healthcare capacity,Agree,34.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,3,Healthcare capacity,Disagree,24.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,3,Healthcare capacity,Neutral,10.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,3,Healthcare capacity,Strongly agree,19.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,3,Healthcare capacity,Strongly disagree,13.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,4,Impact on vulnerable groups,Agree,38.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,4,Impact on vulnerable groups,Disagree,19.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,4,Impact on vulnerable groups,Neutral,10.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,4,Impact on vulnerable groups,Strongly agree,23.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,4,Impact on vulnerable groups,Strongly disagree,10.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,5,Miscarriages,Agree,35.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,5,Miscarriages,Disagree,22.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,5,Miscarriages,Neutral,10.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,5,Miscarriages,Strongly agree,21.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,5,Miscarriages,Strongly disagree,12.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,6,Duration of current measures,Agree,24.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,6,Duration of current measures,Disagree,36.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,6,Duration of current measures,Neutral,10.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,6,Duration of current measures,Strongly agree,10.0,All,risk_perception
+2027-07-19,2027-07-19,19 Jul 2027,6,Duration of current measures,Strongly disagree,20.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,1,Social Distancing,Agree,12.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,1,Social Distancing,Disagree,5.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,1,Social Distancing,Neutral,5.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,1,Social Distancing,Strongly agree,76.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,1,Social Distancing,Strongly disagree,2.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,2,Quarantaine measures,Agree,18.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,2,Quarantaine measures,Disagree,7.000000000000001,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,2,Quarantaine measures,Neutral,7.000000000000001,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,2,Quarantaine measures,Strongly agree,65.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,2,Quarantaine measures,Strongly disagree,3.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,3,Ban on public gathering,Agree,19.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,3,Ban on public gathering,Disagree,8.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,3,Ban on public gathering,Neutral,8.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,3,Ban on public gathering,Strongly agree,61.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,3,Ban on public gathering,Strongly disagree,4.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,4,Non-essential travel,Agree,27.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,4,Non-essential travel,Disagree,10.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,4,Non-essential travel,Neutral,10.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,4,Non-essential travel,Strongly agree,48.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,4,Non-essential travel,Strongly disagree,5.0,All,adherence
+2027-08-09,2027-08-09,09 Aug 2027,1,Impact on Society,Agree,38.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,1,Impact on Society,Disagree,19.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,1,Impact on Society,Neutral,10.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,1,Impact on Society,Strongly agree,23.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,1,Impact on Society,Strongly disagree,10.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,2,Neurological damage,Agree,39.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,2,Neurological damage,Disagree,15.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,2,Neurological damage,Neutral,10.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,2,Neurological damage,Strongly agree,28.000000000000004,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,2,Neurological damage,Strongly disagree,8.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,3,Healthcare capacity,Agree,32.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,3,Healthcare capacity,Disagree,27.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,3,Healthcare capacity,Neutral,10.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,3,Healthcare capacity,Strongly agree,17.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,3,Healthcare capacity,Strongly disagree,14.000000000000002,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,4,Impact on vulnerable groups,Agree,40.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,4,Impact on vulnerable groups,Disagree,17.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,4,Impact on vulnerable groups,Neutral,10.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,4,Impact on vulnerable groups,Strongly agree,24.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,4,Impact on vulnerable groups,Strongly disagree,9.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,5,Miscarriages,Agree,35.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,5,Miscarriages,Disagree,22.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,5,Miscarriages,Neutral,10.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,5,Miscarriages,Strongly agree,21.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,5,Miscarriages,Strongly disagree,12.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,6,Duration of current measures,Agree,25.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,6,Duration of current measures,Disagree,36.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,6,Duration of current measures,Neutral,10.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,6,Duration of current measures,Strongly agree,10.0,All,risk_perception
+2027-08-09,2027-08-09,09 Aug 2027,6,Duration of current measures,Strongly disagree,19.0,All,risk_perception
