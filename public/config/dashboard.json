@@ -1,0 +1,1856 @@
+{
+  "schemaVersion": 2,
+  "programLabel": "Pandemic & Disaster Preparedness Center",
+  "title": "SimEx Dashboard V2",
+  "description": "Static, config-driven dashboard for simulation exercise briefings.",
+  "scenarioLabel": "HeV-A26 Day 2 Simulation",
+  "lastUpdated": "2026-06-27",
+  "layout": "two-column",
+  "globalStyles": {
+    "panelColors": {
+      "panelBackgroundColor": "#f5f8fb",
+      "panelBorderColor": "#d8e2ec",
+      "chartAreaColor": "#eaf1f6",
+      "chartAreaBorderColor": "#d8e2ec",
+      "editHighlightColor": "#043bcb",
+      "multiSelectHighlightColor": "#00a676"
+    }
+  },
+  "vantaBackground": {
+    "backgroundColor": "#f7f9fc",
+    "networkColor": "#f1a1ad",
+    "mouseControls": false,
+    "touchControls": false,
+    "points": 6,
+    "maxDistance": 17,
+    "spacing": 18,
+    "speed": 0.45
+  },
+  "dataSources": {
+    "bio_cases": "data/biomedical/cases.csv",
+    "bio_province_cases": "data/biomedical/province_cases.csv",
+    "bio_province_cases_latest": "data/biomedical/province_cases_latest.csv",
+    "bio_province_deltas": "data/biomedical/province_case_deltas.csv",
+    "bio_r_values": "data/biomedical/r_values.csv",
+    "bio_mortality": "data/biomedical/mortality_by_age.csv",
+    "bio_testing": "data/biomedical/testing.csv",
+    "bio_icu_occupancy": "data/biomedical/icu_occupancy.csv",
+    "bio_hospital_occupancy": "data/biomedical/hospital_occupancy.csv",
+    "bio_admissions": "data/biomedical/admissions.csv",
+    "bio_occupancy_gauges": "data/biomedical/occupancy_gauges.csv",
+    "bio_healthcare_cases": "data/biomedical/healthcare_cases.csv",
+    "bio_wastewater": "data/biomedical/wastewater.csv",
+    "bio_wastewater_latest": "data/biomedical/wastewater_latest.csv",
+    "bio_vaccination_current": "data/biomedical/vaccination_current.csv",
+    "bio_vaccination_timeseries": "data/biomedical/vaccination_timeseries.csv",
+    "socio_behaviour": "data/socio-economic/behaviour.csv",
+    "socio_risk_deltas": "data/socio-economic/risk_perception_deltas.csv",
+    "socio_adherence_deltas": "data/socio-economic/adherence_deltas.csv",
+    "socio_values": "data/socio-economic/values.csv",
+    "socio_values_deltas": "data/socio-economic/values_deltas.csv",
+    "socio_trust": "data/socio-economic/trust.csv",
+    "socio_business_closures": "data/socio-economic/business_closures.csv",
+    "socio_unemployment": "data/socio-economic/unemployment_rate.csv",
+    "socio_loneliness": "data/socio-economic/loneliness.csv",
+    "socio_mental_wellbeing": "data/socio-economic/mental_wellbeing.csv",
+    "socio_lifestyle": "data/socio-economic/lifestyle.csv",
+    "socio_resilience": "data/socio-economic/resilience.csv",
+    "socio_education_absenteeism": "data/socio-economic/education_absenteeism.csv",
+    "socio_healthcare_absenteeism": "data/socio-economic/healthcare_absenteeism.csv",
+    "geo_netherlands_provinces": "data/geo/netherlands-provinces.geojson",
+    "bio_municipal_infections": "data/biomedical/municipal_infections.csv",
+    "geo_netherlands_municipalities_2026": "data/geo/gemeente_2026.geojson",
+    "geo_netherlands_municipalities_2021": "data/geo/gemeente_2021.geojson",
+    "geo_netherlands_municipalities_2020": "data/geo/gemeente_2020.geojson",
+    "bio_municipal_infections_harmonized_2021": "data/biomedical/municipal_infections_2021_harmonized.csv"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "label": "Home",
+      "title": "HeV-A26 Dashboard Home",
+      "description": "Exercise overview with quick links into biomedical and socio-economic indicators.",
+      "sections": [
+        {
+          "id": "home_overview",
+          "title": "Scenario overview",
+          "description": "Prepared static dashboard content imported from the original PDPC exercise dashboard.",
+          "layout": "two-column",
+          "vantaBackground": {
+            "backgroundColor": "#f7f9fc",
+            "networkColor": "#f1a1ad",
+            "mouseControls": false,
+            "touchControls": false,
+            "points": 6,
+            "maxDistance": 17,
+            "spacing": 18,
+            "speed": 0.45
+          },
+          "panels": [
+            {
+              "id": "home_status_cards",
+              "type": "kpi",
+              "title": "Dashboard areas",
+              "size": "normal",
+              "items": [
+                {
+                  "label": "Biomedical",
+                  "value": "Cases, healthcare, testing, wastewater, vaccination"
+                },
+                {
+                  "label": "Socio-economic",
+                  "value": "Behaviour, trust, wellbeing, economy, absenteeism"
+                },
+                {
+                  "label": "Runtime model",
+                  "value": "Static React app; no Docker required for hosting"
+                }
+              ]
+            },
+            {
+              "id": "home_case_map",
+              "type": "mapScatter",
+              "title": "Geographic case spread",
+              "dataSource": "bio_province_cases_latest",
+              "geoSource": "geo_netherlands_provinces",
+              "nameField": "province",
+              "latField": "lat",
+              "lonField": "lon",
+              "valueField": "Infected_total",
+              "size": "normal",
+              "legend": false,
+              "mapName": "netherlands-provinces",
+              "color": "#043BCB",
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "province",
+                  "Infected_total",
+                  "lat",
+                  "lon"
+                ],
+                "signature": "date|province|Infected_total|lat|lon",
+                "checkedAt": "2026-07-11T20:30:11.858Z"
+              },
+              "joinField": "date"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biomedical",
+      "label": "Biomedical",
+      "title": "HeV-A26 Dashboard: Epidemiological overview",
+      "description": "Cases, mortality, healthcare, testing, wastewater, and vaccination indicators.",
+      "sections": [
+        {
+          "id": "cases_mortality",
+          "title": "Cases and Mortality",
+          "description": "National case surveillance, province snapshots, and mortality.",
+          "layout": "two-column",
+          "vantaBackground": {
+            "backgroundColor": "#f7f9fc",
+            "networkColor": "#f1a1ad",
+            "mouseControls": false,
+            "touchControls": false,
+            "points": 6,
+            "maxDistance": 17,
+            "spacing": 18,
+            "speed": 0.45
+          },
+          "filters": [
+            {
+              "id": "bio_case_dates",
+              "type": "dateRange",
+              "label": "Case date range",
+              "column": "date",
+              "defaultStart": "2027-02-20",
+              "defaultEnd": "2027-08-15"
+            }
+          ],
+          "panels": [
+            {
+              "id": "bio_confirmed_cases",
+              "type": "line",
+              "title": "Confirmed Cases (cumulative)",
+              "dataSource": "bio_cases",
+              "filters": [
+                {
+                  "filterId": "bio_case_dates",
+                  "column": "date"
+                }
+              ],
+              "legend": false,
+              "size": "normal",
+              "fontSizes": {
+                "title": 17,
+                "axis": 13
+              },
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "national_total_cases",
+                  "total_deaths",
+                  "daily_new_cases",
+                  "new_deaths"
+                ],
+                "signature": "date|national_total_cases|total_deaths|daily_new_cases|new_deaths",
+                "checkedAt": "2026-07-11T20:30:11.858Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "date",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "national_total_cases",
+                    "label": "Cases",
+                    "color": "#043BCB",
+                    "lineWidth": 3
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [],
+                "aggregation": "first",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "bio_municipality_choropleth_animation",
+              "type": "chronoChoroplethMap",
+              "title": "Municipality Infection Rate Timelapse",
+              "dataSource": "bio_municipal_infections_harmonized_2021",
+              "geoSource": "geo_netherlands_municipalities_2021",
+              "mapName": "nl-gemeente-2021-animation",
+              "joinField": "MunicipalityCode",
+              "valueField": "infectionsPer10000",
+              "valueLabel": "Infections per 10,000 population",
+              "labelField": "Gemeentenaam",
+              "geoNameProperty": "statcode",
+              "geoLabelProperty": "statnaam",
+              "dateSelection": {
+                "column": "Datum",
+                "mode": "range",
+                "start": "2020-02-27",
+                "end": "2021-04-17"
+              },
+              "size": "tall",
+              "legend": false,
+              "colorScheme": "caseIntensity",
+              "missingColor": "#DDE7EF",
+              "mapBorderColor": "#F8FBFF",
+              "mapBorderWidth": 0.5,
+              "mapLayoutSize": "82%",
+              "showProvinceOverlay": true,
+              "provinceOverlaySource": "geo_netherlands_provinces",
+              "provinceBorderColor": "#08224A",
+              "provinceBorderWidth": 1.4,
+              "showProvinceNames": true,
+              "provinceNameFontSize": 7,
+              "provinceNameColor": "#08224A",
+              "infoSource": "Animated daily view of infections per 10,000 population. Data are harmonized to Cartomap 2021 municipality boundaries; missing source municipalities are imputed using same-day province population-weighted infection rates.",
+              "animationIntervalMs": 450,
+              "choroplethTransitionMs": 575,
+              "timelapseSpeed": 3,
+              "visualMin": 0,
+              "sourceSchema": {
+                "columns": [
+                  "Datum",
+                  "MunicipalityCode",
+                  "Gemeentecode",
+                  "Gemeentenaam",
+                  "Provincienaam",
+                  "AantalCumulatief",
+                  "population",
+                  "infectionsPerPopulation",
+                  "infectionsPer1000",
+                  "infectionsPer10000",
+                  "dataMethod",
+                  "populationSource",
+                  "sourceMunicipalityCodes"
+                ],
+                "signature": "Datum|MunicipalityCode|Gemeentecode|Gemeentenaam|Provincienaam|AantalCumulatief|population|infectionsPerPopulation|infectionsPer1000|infectionsPer10000|dataMethod|populationSource|sourceMunicipalityCodes",
+                "checkedAt": "2026-07-11T20:30:11.904Z"
+              }
+            },
+            {
+              "id": "bio_r_values",
+              "type": "line",
+              "title": "Estimated R-value Over Time",
+              "dataSource": "bio_r_values",
+              "filters": [
+                {
+                  "filterId": "bio_case_dates",
+                  "column": "date"
+                }
+              ],
+              "referenceLines": [
+                {
+                  "y": 1,
+                  "label": "R = 1"
+                }
+              ],
+              "yScale": "auto",
+              "legend": false,
+              "size": "normal",
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "R_value"
+                ],
+                "signature": "date|R_value",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "date",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "R_value",
+                    "label": "R-value",
+                    "color": "#8F1D2C",
+                    "lineWidth": 3
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [],
+                "aggregation": "first",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "bio_region_comparison",
+              "type": "horizontalBar",
+              "title": "Confirmed Cases per Province",
+              "dataSource": "bio_province_cases_latest",
+              "legend": false,
+              "size": "tall",
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "province",
+                  "Infected_total",
+                  "lat",
+                  "lon"
+                ],
+                "signature": "date|province|Infected_total|lat|lon",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "province",
+                  "type": "category"
+                },
+                "measures": [
+                  {
+                    "field": "Infected_total",
+                    "label": "Cumulative cases",
+                    "color": "#4496D1"
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [],
+                "aggregation": "first",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "bio_case_deltas",
+              "type": "deltaList",
+              "title": "Change Since Previous Day",
+              "dataSource": "bio_province_deltas",
+              "rowLimit": 12,
+              "sortBy": "Case delta",
+              "sortDirection": "desc",
+              "fields": {
+                "title": "province",
+                "value": "Case delta",
+                "detail": "Cumulative cases"
+              },
+              "valuePrefix": "+",
+              "size": "normal",
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "province",
+                  "Infected_total",
+                  "lat",
+                  "lon",
+                  "Cumulative cases",
+                  "Previous cumulative cases",
+                  "Case delta",
+                  "Comparison date",
+                  "Comparison label",
+                  "Is first snapshot"
+                ],
+                "signature": "date|province|Infected_total|lat|lon|Cumulative cases|Previous cumulative cases|Case delta|Comparison date|Comparison label|Is first snapshot",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              }
+            },
+            {
+              "id": "bio_new_cases_deaths",
+              "type": "mixed",
+              "title": "Confirmed Cases and Deaths per Day",
+              "dataSource": "bio_cases",
+              "filters": [
+                {
+                  "filterId": "bio_case_dates",
+                  "column": "date"
+                }
+              ],
+              "size": "wide",
+              "legend": true,
+              "barGap": "20%",
+              "barCategoryGap": "10%",
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "national_total_cases",
+                  "total_deaths",
+                  "daily_new_cases",
+                  "new_deaths"
+                ],
+                "signature": "date|national_total_cases|total_deaths|daily_new_cases|new_deaths",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "date",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "daily_new_cases",
+                    "label": "Daily new cases",
+                    "type": "bar",
+                    "color": "#043BCB"
+                  },
+                  {
+                    "field": "new_deaths",
+                    "label": "New deaths",
+                    "type": "line",
+                    "color": "#8F1D2C",
+                    "yAxisIndex": 1,
+                    "lineWidth": 3
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [
+                  {
+                    "field": "date",
+                    "operator": "range",
+                    "min": "2027-04-09",
+                    "max": "2027-05-16"
+                  }
+                ],
+                "aggregation": "first",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "bio_mortality_age",
+              "type": "bar",
+              "title": "Age Distribution of HeV-A26 Mortality",
+              "dataSource": "bio_mortality",
+              "size": "wide",
+              "legend": false,
+              "sourceSchema": {
+                "columns": [
+                  "Age group",
+                  "deaths",
+                  "date"
+                ],
+                "signature": "Age group|deaths|date",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Age group",
+                  "type": "category"
+                },
+                "measures": [
+                  {
+                    "field": "deaths",
+                    "label": "Deaths",
+                    "color": "#00A676"
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [
+                  {
+                    "field": "date",
+                    "operator": "in",
+                    "values": [
+                      "02/05/2027"
+                    ]
+                  },
+                  {
+                    "field": "Age group",
+                    "operator": "in",
+                    "values": [
+                      "0-19",
+                      "20-39",
+                      "40-59",
+                      "60-79",
+                      "80+"
+                    ]
+                  }
+                ],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            }
+          ]
+        },
+        {
+          "id": "healthcare",
+          "title": "Healthcare",
+          "description": "ICU and hospital occupancy, admissions, and delayed healthcare indicators.",
+          "layout": "two-column",
+          "vantaBackground": {
+            "backgroundColor": "#f7f9fc",
+            "networkColor": "#f1a1ad",
+            "mouseControls": false,
+            "touchControls": false,
+            "points": 6,
+            "maxDistance": 17,
+            "spacing": 18,
+            "speed": 0.45
+          },
+          "filters": [
+            {
+              "id": "healthcare_dates",
+              "type": "dateRange",
+              "label": "Healthcare date range",
+              "column": "date",
+              "defaultStart": "2027-02-11",
+              "defaultEnd": "2027-08-15"
+            }
+          ],
+          "panels": [
+            {
+              "id": "bio_icu_occupancy_gauge",
+              "type": "gauge",
+              "title": "Current ICU Occupancy",
+              "dataSource": "bio_occupancy_gauges",
+              "filters": [
+                {
+                  "column": "id",
+                  "equals": "current_icu_occupancy"
+                }
+              ],
+              "valueField": "value",
+              "colorField": "color",
+              "size": "half",
+              "gaugeArcWidth": 25,
+              "fontSizes": {
+                "gaugeValue": 23,
+                "gaugeLabel": 12,
+                "gaugeAxis": 13
+              },
+              "sourceSchema": {
+                "columns": [
+                  "id",
+                  "title",
+                  "value",
+                  "color"
+                ],
+                "signature": "id|title|value|color",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              }
+            },
+            {
+              "id": "bio_hospital_occupancy_gauge",
+              "type": "gauge",
+              "title": "Current Hospital Occupancy",
+              "dataSource": "bio_occupancy_gauges",
+              "filters": [
+                {
+                  "column": "id",
+                  "equals": "current_hospital_occupancy"
+                }
+              ],
+              "valueField": "value",
+              "colorField": "color",
+              "size": "half",
+              "gaugeArcWidth": 25,
+              "fontSizes": {
+                "gaugeValue": 23,
+                "gaugeLabel": 12,
+                "gaugeAxis": 13
+              },
+              "sourceSchema": {
+                "columns": [
+                  "id",
+                  "title",
+                  "value",
+                  "color"
+                ],
+                "signature": "id|title|value|color",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              }
+            },
+            {
+              "id": "bio_icu_occupancy",
+              "type": "line",
+              "title": "Total ICU Occupancy",
+              "dataSource": "bio_icu_occupancy",
+              "filters": [
+                {
+                  "filterId": "healthcare_dates",
+                  "column": "date"
+                }
+              ],
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "HeV-A26 occupancy",
+                  "Other occupancy",
+                  "Capacity",
+                  "Total occupancy"
+                ],
+                "signature": "date|HeV-A26 occupancy|Other occupancy|Capacity|Total occupancy",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "date",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "HeV-A26 occupancy",
+                    "label": "HeV-A26 occupancy",
+                    "color": "#4496D1"
+                  },
+                  {
+                    "field": "Other occupancy",
+                    "label": "Other occupancy",
+                    "color": "#00A676"
+                  },
+                  {
+                    "field": "Capacity",
+                    "label": "Capacity",
+                    "color": "#8F1D2C",
+                    "lineStyle": "dashed"
+                  },
+                  {
+                    "field": "Total occupancy",
+                    "label": "Total occupancy",
+                    "color": "#043BCB",
+                    "lineWidth": 4
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [],
+                "aggregation": "first",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "bio_hospital_occupancy",
+              "type": "line",
+              "title": "Total Hospital Occupancy",
+              "dataSource": "bio_hospital_occupancy",
+              "filters": [
+                {
+                  "filterId": "healthcare_dates",
+                  "column": "date"
+                }
+              ],
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "HeV-A26 occupancy",
+                  "Other occupancy",
+                  "Capacity",
+                  "Total occupancy"
+                ],
+                "signature": "date|HeV-A26 occupancy|Other occupancy|Capacity|Total occupancy",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "date",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "HeV-A26 occupancy",
+                    "label": "HeV-A26 occupancy",
+                    "color": "#4496D1"
+                  },
+                  {
+                    "field": "Other occupancy",
+                    "label": "Other occupancy",
+                    "color": "#00A676"
+                  },
+                  {
+                    "field": "Capacity",
+                    "label": "Capacity",
+                    "color": "#8F1D2C",
+                    "lineStyle": "dashed"
+                  },
+                  {
+                    "field": "Total occupancy",
+                    "label": "Total occupancy",
+                    "color": "#043BCB",
+                    "lineWidth": 4
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [],
+                "aggregation": "first",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "bio_admissions",
+              "type": "groupedBar",
+              "title": "ICU and Hospital Admissions per Day",
+              "dataSource": "bio_admissions",
+              "filters": [
+                {
+                  "filterId": "healthcare_dates",
+                  "column": "date"
+                }
+              ],
+              "size": "wide",
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "new_icu_admissions",
+                  "new_clinic_admissions"
+                ],
+                "signature": "date|new_icu_admissions|new_clinic_admissions",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "date",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "new_icu_admissions",
+                    "label": "ICU admissions",
+                    "color": "#043BCB"
+                  },
+                  {
+                    "field": "new_clinic_admissions",
+                    "label": "Hospital admissions",
+                    "color": "#4496D1"
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [],
+                "aggregation": "first",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "bio_delayed_healthcare",
+              "type": "groupedBar",
+              "title": "Surgeries Performed per Month",
+              "dataSource": "bio_healthcare_cases",
+              "size": "wide",
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "Year",
+                  "Month",
+                  "Month name",
+                  "Treatment",
+                  "Cases"
+                ],
+                "signature": "Year|Month|Month name|Treatment|Cases",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Month name",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "Cases",
+                    "label": "Cases"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "Year"
+                  ]
+                },
+                "filters": [],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testing",
+          "title": "Testing",
+          "description": "Testing volume and positivity rate.",
+          "layout": "two-column",
+          "vantaBackground": {
+            "backgroundColor": "#f7f9fc",
+            "networkColor": "#f1a1ad",
+            "mouseControls": false,
+            "touchControls": false,
+            "points": 6,
+            "maxDistance": 17,
+            "spacing": 18,
+            "speed": 0.45
+          },
+          "panels": [
+            {
+              "id": "bio_testing_overlay",
+              "type": "mixed",
+              "title": "Tests Conducted and Test Positivity per Day",
+              "dataSource": "bio_testing",
+              "size": "wide",
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "tests_per_day",
+                  "test_positivity_rate"
+                ],
+                "signature": "date|tests_per_day|test_positivity_rate",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "date",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "tests_per_day",
+                    "label": "Tests per day",
+                    "type": "bar",
+                    "color": "#043BCB"
+                  },
+                  {
+                    "field": "test_positivity_rate",
+                    "label": "Test positivity rate",
+                    "type": "line",
+                    "color": "#8F1D2C",
+                    "yAxisIndex": 1,
+                    "lineWidth": 3
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [],
+                "aggregation": "first",
+                "missingValue": "gap"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wastewater",
+          "title": "Wastewater Surveillance",
+          "description": "Wastewater surveillance by province.",
+          "layout": "two-column",
+          "vantaBackground": {
+            "backgroundColor": "#f7f9fc",
+            "networkColor": "#f1a1ad",
+            "mouseControls": false,
+            "touchControls": false,
+            "points": 6,
+            "maxDistance": 17,
+            "spacing": 18,
+            "speed": 0.45
+          },
+          "panels": [
+            {
+              "id": "bio_wastewater_map",
+              "type": "mapScatter",
+              "title": "Geographic Spread",
+              "dataSource": "bio_wastewater_latest",
+              "geoSource": "geo_netherlands_provinces",
+              "nameField": "province",
+              "latField": "lat",
+              "lonField": "lon",
+              "valueField": "virus_particles",
+              "mapName": "netherlands-provinces",
+              "color": "#007C89",
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "province_id",
+                  "virus_particles",
+                  "province",
+                  "lat",
+                  "lon"
+                ],
+                "signature": "date|province_id|virus_particles|province|lat|lon",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "joinField": "province_id"
+            },
+            {
+              "id": "bio_wastewater_province",
+              "type": "horizontalBar",
+              "title": "HeV-A26 Virus Particles per Province",
+              "dataSource": "bio_wastewater_latest",
+              "legend": false,
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "province_id",
+                  "virus_particles",
+                  "province",
+                  "lat",
+                  "lon"
+                ],
+                "signature": "date|province_id|virus_particles|province|lat|lon",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "province",
+                  "type": "category"
+                },
+                "measures": [
+                  {
+                    "field": "virus_particles",
+                    "label": "Virus particles",
+                    "color": "#007C89"
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [],
+                "aggregation": "first",
+                "missingValue": "gap"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vaccination",
+          "title": "Vaccination",
+          "description": "Current vaccination status and vaccination rate over time.",
+          "layout": "two-column",
+          "vantaBackground": {
+            "backgroundColor": "#f7f9fc",
+            "networkColor": "#f1a1ad",
+            "mouseControls": false,
+            "touchControls": false,
+            "points": 6,
+            "maxDistance": 17,
+            "spacing": 18,
+            "speed": 0.45
+          },
+          "panels": [
+            {
+              "id": "bio_vaccination_current",
+              "type": "table",
+              "title": "Current Vaccination Status",
+              "dataSource": "bio_vaccination_current",
+              "columns": [
+                "Group",
+                "First_vaccination_pct",
+                "Second_vaccination_pct",
+                "Status"
+              ],
+              "sourceSchema": {
+                "columns": [
+                  "Group",
+                  "First_vaccination_pct",
+                  "Second_vaccination_pct",
+                  "Status"
+                ],
+                "signature": "Group|First_vaccination_pct|Second_vaccination_pct|Status",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              }
+            },
+            {
+              "id": "bio_vaccination_rate",
+              "type": "line",
+              "title": "Vaccination Rate Over Time",
+              "dataSource": "bio_vaccination_timeseries",
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "group",
+                  "vaccination_rate_pct"
+                ],
+                "signature": "date|group|vaccination_rate_pct",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "date",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "vaccination_rate_pct",
+                    "label": "vaccination_rate_pct"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "group"
+                  ]
+                },
+                "filters": [],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "socio_economic",
+      "label": "Socio-economic",
+      "title": "HeV-A26 Dashboard: Socio-economic Overview",
+      "description": "Behaviour, public trust, wellbeing, economy, and absenteeism indicators.",
+      "sections": [
+        {
+          "id": "behaviour",
+          "title": "Behaviour",
+          "description": "Values, risk perception, and adherence by measurement moment.",
+          "layout": "two-column",
+          "vantaBackground": {
+            "backgroundColor": "#f7f9fc",
+            "networkColor": "#f1a1ad",
+            "mouseControls": false,
+            "touchControls": false,
+            "points": 6,
+            "maxDistance": 17,
+            "spacing": 18,
+            "speed": 0.45
+          },
+          "filters": [
+            {
+              "id": "behaviour_snapshot",
+              "type": "select",
+              "label": "Measurement moment",
+              "options": [
+                "2027-03-15",
+                "2027-03-29",
+                "2027-04-12",
+                "2027-04-26"
+              ],
+              "defaultValue": "2027-04-26"
+            }
+          ],
+          "panels": [
+            {
+              "id": "socio_risk_perception",
+              "type": "stackedBar",
+              "title": "Risk Perception",
+              "dataSource": "socio_behaviour",
+              "filters": [
+                {
+                  "filterId": "behaviour_snapshot",
+                  "column": "date_value"
+                }
+              ],
+              "size": "wide",
+              "legend": true,
+              "colorScheme": "likertInfographic5",
+              "reverseColorScheme": false,
+              "fontSizes": {
+                "title": 17
+              },
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "date_value",
+                  "Month Label",
+                  "Question key",
+                  "Question",
+                  "Answer",
+                  "Percentage",
+                  "Age group",
+                  "Behaviour type"
+                ],
+                "signature": "date|date_value|Month Label|Question key|Question|Answer|Percentage|Age group|Behaviour type",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Question",
+                  "type": "category"
+                },
+                "measures": [
+                  {
+                    "field": "Percentage",
+                    "label": "Percentage"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "Answer"
+                  ]
+                },
+                "filters": [
+                  {
+                    "field": "Behaviour type",
+                    "operator": "in",
+                    "values": [
+                      "risk_perception"
+                    ]
+                  }
+                ],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "socio_risk_deltas",
+              "type": "deltaList",
+              "title": "Risk Perception: Change Compared to Previous Measurement",
+              "dataSource": "socio_risk_deltas",
+              "filters": [
+                {
+                  "filterId": "behaviour_snapshot",
+                  "column": "selected_date"
+                },
+                {
+                  "column": "Answer group",
+                  "in": [
+                    "Agreement",
+                    "Disagreement"
+                  ]
+                }
+              ],
+              "fields": {
+                "title": "Question",
+                "value": "Percentage delta",
+                "detail": "Answer group"
+              },
+              "rowLimit": 12,
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "date_value",
+                  "Month Label",
+                  "Question key",
+                  "Question",
+                  "Answer group",
+                  "Age group",
+                  "Behaviour type",
+                  "Percentage",
+                  "Previous percentage",
+                  "Percentage delta",
+                  "Comparison date",
+                  "Comparison label",
+                  "Is first snapshot",
+                  "selected_date"
+                ],
+                "signature": "date|date_value|Month Label|Question key|Question|Answer group|Age group|Behaviour type|Percentage|Previous percentage|Percentage delta|Comparison date|Comparison label|Is first snapshot|selected_date",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              }
+            },
+            {
+              "id": "socio_adherence",
+              "type": "stackedBar",
+              "title": "Adherence to Health Measures",
+              "dataSource": "socio_behaviour",
+              "filters": [
+                {
+                  "filterId": "behaviour_snapshot",
+                  "column": "date_value"
+                }
+              ],
+              "size": "wide",
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "date_value",
+                  "Month Label",
+                  "Question key",
+                  "Question",
+                  "Answer",
+                  "Percentage",
+                  "Age group",
+                  "Behaviour type"
+                ],
+                "signature": "date|date_value|Month Label|Question key|Question|Answer|Percentage|Age group|Behaviour type",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Question",
+                  "type": "category"
+                },
+                "measures": [
+                  {
+                    "field": "Percentage",
+                    "label": "Percentage"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "Answer"
+                  ]
+                },
+                "filters": [
+                  {
+                    "field": "Behaviour type",
+                    "operator": "in",
+                    "values": [
+                      "adherence"
+                    ]
+                  }
+                ],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "socio_values",
+              "type": "horizontalBar",
+              "title": "Key Considerations from Citizens in Current Phase",
+              "dataSource": "socio_values",
+              "filters": [
+                {
+                  "filterId": "behaviour_snapshot",
+                  "column": "date_value"
+                }
+              ],
+              "legend": false,
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "date_value",
+                  "Month Label",
+                  "Value",
+                  "Percentage"
+                ],
+                "signature": "date|date_value|Month Label|Value|Percentage",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Value",
+                  "type": "category"
+                },
+                "measures": [
+                  {
+                    "field": "Percentage",
+                    "label": "Share of responses",
+                    "color": "#043BCB"
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [],
+                "aggregation": "first",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "socio_values_deltas",
+              "type": "deltaList",
+              "title": "Values: Change Compared to Previous Phase",
+              "dataSource": "socio_values_deltas",
+              "filters": [
+                {
+                  "filterId": "behaviour_snapshot",
+                  "column": "selected_date"
+                }
+              ],
+              "fields": {
+                "title": "Value",
+                "value": "Percentage delta",
+                "detail": "Percentage"
+              },
+              "rowLimit": 12,
+              "dateSelection": {
+                "column": "date",
+                "mode": "list",
+                "values": [
+                  "2027-04-26"
+                ]
+              },
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "date_value",
+                  "Month Label",
+                  "Value",
+                  "Percentage",
+                  "Previous percentage",
+                  "Percentage delta",
+                  "Comparison date",
+                  "Comparison label",
+                  "Is first snapshot",
+                  "selected_date"
+                ],
+                "signature": "date|date_value|Month Label|Value|Percentage|Previous percentage|Percentage delta|Comparison date|Comparison label|Is first snapshot|selected_date",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              }
+            }
+          ]
+        },
+        {
+          "id": "trust",
+          "title": "Public Trust",
+          "description": "Trust in institutions over time and current trust meter.",
+          "layout": "two-column",
+          "vantaBackground": {
+            "backgroundColor": "#f7f9fc",
+            "networkColor": "#f1a1ad",
+            "mouseControls": false,
+            "touchControls": false,
+            "points": 6,
+            "maxDistance": 17,
+            "spacing": 18,
+            "speed": 0.45
+          },
+          "filters": [
+            {
+              "id": "trust_snapshot",
+              "type": "select",
+              "label": "Snapshot",
+              "options": [
+                "15 Mar 2027",
+                "29 Mar 2027",
+                "12 Apr 2027",
+                "26 Apr 2027"
+              ],
+              "defaultValue": "26 Apr 2027"
+            }
+          ],
+          "panels": [
+            {
+              "id": "socio_trust_trend",
+              "type": "line",
+              "title": "Trust",
+              "dataSource": "socio_trust",
+              "legend": true,
+              "size": "wide",
+              "yScale": "auto",
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "Trustee_id",
+                  "trust",
+                  "institution",
+                  "date_label",
+                  "date_value"
+                ],
+                "signature": "date|Trustee_id|trust|institution|date_label|date_value",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "date_label",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "trust",
+                    "label": "trust"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "institution"
+                  ]
+                },
+                "filters": [],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "socio_trust_meter",
+              "type": "gauge",
+              "title": "Current Trust",
+              "dataSource": "socio_trust",
+              "filters": [
+                {
+                  "filterId": "trust_snapshot",
+                  "column": "date_label"
+                }
+              ],
+              "valueField": "trust",
+              "labelField": "institution",
+              "color": "#00A676",
+              "sourceSchema": {
+                "columns": [
+                  "date",
+                  "Trustee_id",
+                  "trust",
+                  "institution",
+                  "date_label",
+                  "date_value"
+                ],
+                "signature": "date|Trustee_id|trust|institution|date_label|date_value",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              }
+            }
+          ]
+        },
+        {
+          "id": "subjective_wellbeing",
+          "title": "Subjective Wellbeing",
+          "description": "Wellbeing, lifestyle, and resilience survey indicators.",
+          "layout": "two-column",
+          "vantaBackground": {
+            "backgroundColor": "#f7f9fc",
+            "networkColor": "#f1a1ad",
+            "mouseControls": false,
+            "touchControls": false,
+            "points": 6,
+            "maxDistance": 17,
+            "spacing": 18,
+            "speed": 0.45
+          },
+          "filters": [
+            {
+              "id": "wellbeing_snapshot",
+              "type": "select",
+              "label": "Snapshot",
+              "options": [
+                "15 Mar 2027",
+                "29 Mar 2027",
+                "12 Apr 2027",
+                "26 Apr 2027"
+              ],
+              "defaultValue": "26 Apr 2027"
+            }
+          ],
+          "panels": [
+            {
+              "id": "socio_loneliness",
+              "type": "line",
+              "title": "Loneliness",
+              "dataSource": "socio_loneliness",
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "snapshot_id",
+                  "Snapshot",
+                  "Snapshot label",
+                  "Age group",
+                  "Percentage"
+                ],
+                "signature": "snapshot_id|Snapshot|Snapshot label|Age group|Percentage",
+                "checkedAt": "2026-07-11T20:30:11.905Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Snapshot label",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "Percentage",
+                    "label": "Percentage"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "Age group"
+                  ]
+                },
+                "filters": [],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "socio_mental_wellbeing",
+              "type": "stackedBar",
+              "title": "Wellbeing",
+              "dataSource": "socio_mental_wellbeing",
+              "filters": [
+                {
+                  "filterId": "wellbeing_snapshot",
+                  "column": "Snapshot label"
+                }
+              ],
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "Category",
+                  "snapshot_id",
+                  "Snapshot",
+                  "Snapshot label",
+                  "Age group",
+                  "Answer",
+                  "Percentage"
+                ],
+                "signature": "Category|snapshot_id|Snapshot|Snapshot label|Age group|Answer|Percentage",
+                "checkedAt": "2026-07-11T20:30:11.906Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Age group",
+                  "type": "category"
+                },
+                "measures": [
+                  {
+                    "field": "Percentage",
+                    "label": "Percentage"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "Answer"
+                  ]
+                },
+                "filters": [
+                  {
+                    "field": "Age group",
+                    "operator": "in",
+                    "values": [
+                      "Average"
+                    ]
+                  }
+                ],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "socio_lifestyle",
+              "type": "stackedBar",
+              "title": "Lifestyle",
+              "dataSource": "socio_lifestyle",
+              "filters": [
+                {
+                  "filterId": "wellbeing_snapshot",
+                  "column": "Snapshot label"
+                }
+              ],
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "Category",
+                  "snapshot_id",
+                  "Snapshot",
+                  "Snapshot label",
+                  "Question key",
+                  "Question",
+                  "Answer",
+                  "Percentage"
+                ],
+                "signature": "Category|snapshot_id|Snapshot|Snapshot label|Question key|Question|Answer|Percentage",
+                "checkedAt": "2026-07-11T20:30:11.906Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Question",
+                  "type": "category"
+                },
+                "measures": [
+                  {
+                    "field": "Percentage",
+                    "label": "Percentage"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "Answer"
+                  ]
+                },
+                "filters": [],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "socio_resilience",
+              "type": "stackedBar",
+              "title": "Resilience",
+              "dataSource": "socio_resilience",
+              "filters": [
+                {
+                  "filterId": "wellbeing_snapshot",
+                  "column": "Snapshot label"
+                }
+              ],
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "Category",
+                  "snapshot_id",
+                  "Snapshot",
+                  "Snapshot label",
+                  "Question key",
+                  "Question",
+                  "Answer",
+                  "Percentage"
+                ],
+                "signature": "Category|snapshot_id|Snapshot|Snapshot label|Question key|Question|Answer|Percentage",
+                "checkedAt": "2026-07-11T20:30:11.906Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Question",
+                  "type": "category"
+                },
+                "measures": [
+                  {
+                    "field": "Percentage",
+                    "label": "Percentage"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "Answer"
+                  ]
+                },
+                "filters": [],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            }
+          ]
+        },
+        {
+          "id": "economy",
+          "title": "Economy",
+          "description": "Business closures and unemployment.",
+          "layout": "two-column",
+          "vantaBackground": {
+            "backgroundColor": "#f7f9fc",
+            "networkColor": "#f1a1ad",
+            "mouseControls": false,
+            "touchControls": false,
+            "points": 6,
+            "maxDistance": 17,
+            "spacing": 18,
+            "speed": 0.45
+          },
+          "panels": [
+            {
+              "id": "socio_business_closures",
+              "type": "groupedBar",
+              "title": "Business Closures",
+              "dataSource": "socio_business_closures",
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "Sector_id",
+                  "Closures",
+                  "Year",
+                  "Code",
+                  "Sector"
+                ],
+                "signature": "Sector_id|Closures|Year|Code|Sector",
+                "checkedAt": "2026-07-11T20:30:11.906Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Sector",
+                  "type": "category"
+                },
+                "measures": [
+                  {
+                    "field": "Closures",
+                    "label": "Closures"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "Year"
+                  ]
+                },
+                "filters": [],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "socio_unemployment",
+              "type": "line",
+              "title": "Unemployment",
+              "dataSource": "socio_unemployment",
+              "legend": false,
+              "sourceSchema": {
+                "columns": [
+                  "Date",
+                  "Value",
+                  "Date label"
+                ],
+                "signature": "Date|Value|Date label",
+                "checkedAt": "2026-07-11T20:30:11.906Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Date label",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "Value",
+                    "label": "Unemployment rate",
+                    "color": "#043BCB"
+                  }
+                ],
+                "series": {
+                  "fields": []
+                },
+                "filters": [],
+                "aggregation": "first",
+                "missingValue": "gap"
+              }
+            }
+          ]
+        },
+        {
+          "id": "absenteeism",
+          "title": "Absenteeism",
+          "description": "Healthcare and school absenteeism.",
+          "layout": "two-column",
+          "vantaBackground": {
+            "backgroundColor": "#f7f9fc",
+            "networkColor": "#f1a1ad",
+            "mouseControls": false,
+            "touchControls": false,
+            "points": 6,
+            "maxDistance": 17,
+            "spacing": 18,
+            "speed": 0.45
+          },
+          "panels": [
+            {
+              "id": "socio_healthcare_absenteeism",
+              "type": "line",
+              "title": "Absenteeism in Healthcare",
+              "dataSource": "socio_healthcare_absenteeism",
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "Year",
+                  "Month",
+                  "Month order",
+                  "Period",
+                  "Absenteeism percentage"
+                ],
+                "signature": "Year|Month|Month order|Period|Absenteeism percentage",
+                "checkedAt": "2026-07-11T20:30:11.906Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Month",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "Absenteeism percentage",
+                    "label": "Absenteeism percentage"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "Year"
+                  ]
+                },
+                "filters": [],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            },
+            {
+              "id": "socio_education_absenteeism",
+              "type": "line",
+              "title": "School Absenteeism",
+              "dataSource": "socio_education_absenteeism",
+              "legend": true,
+              "sourceSchema": {
+                "columns": [
+                  "Year",
+                  "Month",
+                  "Month order",
+                  "Period",
+                  "Absenteeism percentage"
+                ],
+                "signature": "Year|Month|Month order|Period|Absenteeism percentage",
+                "checkedAt": "2026-07-11T20:30:11.906Z"
+              },
+              "dataBinding": {
+                "version": 2,
+                "x": {
+                  "field": "Month",
+                  "type": "temporal"
+                },
+                "measures": [
+                  {
+                    "field": "Absenteeism percentage",
+                    "label": "Absenteeism percentage"
+                  }
+                ],
+                "series": {
+                  "fields": [
+                    "Year"
+                  ]
+                },
+                "filters": [],
+                "aggregation": "sum",
+                "missingValue": "gap"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
