@@ -5,6 +5,7 @@
   "description": "Static, config-driven dashboard for simulation exercise briefings.",
   "scenarioLabel": "HeV-A26 Day 2 Simulation",
   "lastUpdated": "2026-06-27",
+  "feedbackUrl": "https://github.com/hekmatov/simex_app/issues",
   "layout": "two-column",
   "globalStyles": {
     "panelColors": {
