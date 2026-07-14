@@ -201,8 +201,6 @@ This design separates **content** (configuration and prepared data) from **appli
 
 ### Technology versions
 
-The project declares the following package versions:
-
 | Technology | Declared version | Role |
 | --- | --- | --- |
 | React | `^19.1.0` | User-interface components and state updates |
